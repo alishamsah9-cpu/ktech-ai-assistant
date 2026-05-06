@@ -810,3 +810,402 @@ Chapter 4 explains that software is what makes computer hardware useful. Softwar
 The chapter also explains different operating systems such as Windows, macOS, Linux, and mobile operating systems like Android. It then introduces utility programs that help maintain and protect computers.
 Next, the chapter compares proprietary software, which is custom-built for a specific organization, with off-the-shelf software, which is ready-made and usually cheaper. It also explains programming languages, which developers use to create both system and application software.
 Finally, the chapter discusses important software issues such as bugs, copyrights, licenses, open-source software, upgrades, and global support. The main idea is that software is essential for individuals, universities, and businesses because it helps people solve problems, complete tasks, and manage information effectively.
+==================================================
+CHAPTER 5 — ORGANIZING AND STORING DATA
+==================================================
+1. What is this chapter about?
+This chapter explains how businesses store, organize, manage, and use data.
+Data is not useful if it is messy. A university may have thousands of students, courses, teachers, grades, attendance records, and payments. If all this information is stored randomly, nobody can find anything.
+So, organizations use databases to keep data organized.
+University example:
+KTECH needs to store student names, IDs, courses, attendance, quiz marks, and final grades. A database helps the university find this information quickly.
+Quick summary:
+This chapter is about using databases to store data properly so organizations can make better decisions.
+2. Database
+A database is an organized collection of data.
+It is the center of almost every information system.
+The most common type is a relational database.
+A relational database stores data in related tables.
+University example:
+A university database may have:
+Table	What it stores
+Student table	Student ID, name, phone number
+Course table	Course code, course name
+Grade table	Student grades
+Teacher table	Teacher name and department
+These tables are connected.
+Quick summary:
+A database is like a digital filing cabinet where information is stored in an organized way.
+3. Relational Database
+A relational database is made of tables.
+Each table stores data about one thing.
+Important words:
+Table
+A table stores information in rows and columns.
+University example:
+A Student table stores all student information.
+Record
+A record is one full row in a table.
+University example:
+One student’s full information is one record.
+Field
+A field is one specific piece of information.
+University example:
+Student ID, student name, phone number, and email are fields.
+Entity
+An entity is something important that we want to store data about.
+University example:
+Student, course, professor, classroom, and assignment are entities.
+Example:
+Student_ID	Name	Course
+1001	Ahmed	BIS
+1002	Fatima	OOSAD
+Here:
+Student is the entity.
+Each row is a record.
+Student_ID, Name, and Course are fields.
+Quick summary:
+A relational database organizes data into tables. Tables contain records, and records contain fields.
+4. Primary Key
+A primary key is a field that makes each record unique.
+No two records should have the same primary key.
+University example:
+Student ID is a primary key because every student has a different ID.
+Two students may have the same name, but they cannot have the same Student ID.
+Example:
+Student_ID	Name
+1001	Ali
+1002	Ali
+The names are the same, but the Student_ID is different.
+Quick summary:
+A primary key is the unique identifier for each record.
+5. Foreign Key
+A foreign key is a primary key from one table used inside another table.
+It connects tables together.
+University example:
+The Student table has Student_ID as the primary key.
+The Grade table also uses Student_ID to show which student received which grade.
+Student table:
+Student_ID	Name
+1001	Ali
+Grade table:
+Grade_ID	Student_ID	Grade
+1	1001	90
+Here, Student_ID in the Grade table is a foreign key.
+Quick summary:
+A foreign key connects one table to another table.
+6. Referential Integrity
+Referential integrity means the database must stay logical and correct.
+You cannot refer to something that does not exist.
+University example:
+You cannot enter a grade for Student_ID 9999 if there is no student with ID 9999 in the Student table.
+This prevents mistakes.
+Quick summary:
+Referential integrity protects the database from incorrect relationships.
+7. Database Design
+Database design means planning the database before building it.
+It is also called a data model or database schema.
+A database design includes:
+Tables
+Fields
+Primary keys
+Foreign keys
+Relationships between tables
+There are four main stages:
+1. Identify entities
+Find the important things you need to store.
+University example:
+Students, courses, teachers, classrooms, and grades.
+2. Identify relationships
+Find how these things are connected.
+University example:
+A student registers in many courses.
+A professor teaches many students.
+3. Identify attributes
+Attributes are details about each entity.
+University example:
+Student attributes: ID, name, email, phone number.
+4. Resolve relationships
+Decide how tables will connect using primary keys, foreign keys, or linking tables.
+University example:
+Because many students can take many courses, we may need a Registration table to connect students and courses.
+Quick summary:
+Database design is like drawing the plan before building the database.
+8. Business Rules
+Business rules explain how the organization works.
+They control relationships in the database.
+University example:
+A student can register in many courses.
+Each course can have many students.
+Each course must have one teacher.
+A student cannot receive a grade unless they are registered in the course.
+These rules help design the database correctly.
+Quick summary:
+Business rules tell the database how real-life work happens.
+9. ERD: Entity-Relationship Diagram
+An ERD is a diagram that shows entities and their relationships.
+It helps people understand the database visually.
+University example:
+An ERD can show:
+Student → registers in → Course
+Professor → teaches → Course
+Student → receives → Grade
+This is easier to understand than only reading tables.
+Quick summary:
+An ERD is a picture of how database tables are connected.
+10. SQL
+SQL means Structured Query Language.
+It is the language used to create, change, and retrieve data from databases.
+University example:
+If the university wants to find all students in BIS, SQL can ask the database:
+“Show me all students taking BIS.”
+Quick summary:
+SQL is the language we use to talk to databases.
+11. DDL: Data Definition Language
+DDL is used to create and define database structures.
+It creates databases and tables.
+Example:
+CREATE DATABASE Lettings;
+CREATE TABLE landlords (
+  Firstname CHAR(10),
+  Surname CHAR(10),
+  Telephone CHAR(10)
+);
+University example:
+A university may use DDL to create a Student table with fields like Student_ID, Name, Email, and Phone.
+Quick summary:
+DDL builds the structure of the database.
+12. DML: Data Manipulation Language
+DML is used to get, insert, update, or delete data.
+Example:
+SELECT * FROM EMPLOYEE 
+WHERE JOB_CLASSIFICATION = "C2";
+This means: show all employees with job classification C2.
+University example:
+A professor may ask the database:
+“Show me all students who scored above 80.”
+Quick summary:
+DML works with the data inside the database.
+13. Data Dictionary
+A data dictionary stores metadata.
+Metadata means “data about data.”
+It explains what each field means.
+University example:
+The field Student_ID may be described as:
+“Unique number assigned to each student.”
+The field Grade may be described as:
+“Student mark out of 100.”
+Quick summary:
+A data dictionary explains the meaning of the database fields.
+14. Database Output
+Database output is the information produced from the database.
+It can appear as:
+Reports
+Screen displays
+Printed documents
+Charts
+Lists
+University example:
+The LMS can produce:
+Attendance report
+Grade report
+Student list
+Course registration report
+The database can also calculate things.
+University example:
+It can calculate the class average for a quiz.
+Quick summary:
+Database output turns stored data into useful reports.
+15. DBMS: Database Management System
+A DBMS is software used to manage a database.
+It sits between the user and the database.
+Examples:
+MS Access
+MySQL
+Oracle
+MS SQL Server
+IBM DB2
+University example:
+When a staff member enters student grades into a system, the DBMS manages how the data is saved and retrieved.
+Quick summary:
+A DBMS is the software that helps users create, manage, and use databases.
+16. Selecting a DBMS
+Organizations must choose the right DBMS.
+Important factors:
+Database size
+How much data will be stored?
+University example:
+A small college needs less storage than a large university.
+Cost
+How much does the system cost?
+University example:
+A university may choose MySQL because it is cheaper than some enterprise systems.
+Concurrent users
+How many people will use it at the same time?
+University example:
+During registration week, thousands of students may access the system together.
+Performance
+How fast does it work?
+University example:
+Students do not want to wait 10 minutes to see their grades.
+Integration
+Can it connect with other systems?
+University example:
+The database should connect with Moodle, Teams, finance, and student records.
+Vendor
+Is the company reliable?
+University example:
+A university wants a system from a trusted vendor that provides support.
+Quick summary:
+Choosing a DBMS depends on size, cost, speed, users, integration, and vendor trust.
+17. Database Administrator
+A Database Administrator, or DBA, is the person responsible for managing the database.
+The DBA:
+Plans databases
+Designs databases
+Creates databases
+Secures databases
+Monitors performance
+Fixes problems
+Maintains the database
+University example:
+If students cannot access Moodle grades, the DBA may check whether the database is working properly.
+Quick summary:
+The DBA is responsible for keeping the database safe, fast, and working correctly.
+18. Data Administrator
+A Data Administrator focuses on data rules, standards, and definitions.
+University example:
+The Data Administrator decides that every student record must include Student_ID, name, department, and email.
+The DBA manages the technical database.
+The Data Administrator manages data policies and standards.
+Quick summary:
+The DBA manages the system. The Data Administrator manages the meaning and rules of the data.
+19. Front-End and Back-End Applications
+Front-end application
+This is the part users interact with directly.
+University example:
+Moodle is front-end for students because they click buttons, upload assignments, and view grades.
+Back-end application
+This works behind the scenes.
+University example:
+When a student clicks “View Grade,” Moodle gets the grade from the database in the background.
+Quick summary:
+Front-end is what users see. Back-end is what works behind the scenes.
+20. Database Applications
+Modern databases help organizations:
+Search data
+Filter data
+Combine data
+Analyze data
+Produce useful information
+University example:
+A professor can filter students who missed more than three classes.
+The university can search for all students registered in BIS.
+Quick summary:
+Database applications help turn stored data into useful actions.
+21. Data Warehouse
+A data warehouse is a large central database that collects data from different parts of an organization.
+University example:
+A university data warehouse may collect data from:
+Admissions
+Finance
+Moodle
+Attendance system
+Library system
+Student services
+This gives management a full picture.
+Quick summary:
+A data warehouse gathers data from many places into one central system.
+22. Data Mining
+Data mining means discovering patterns in large amounts of data.
+It is like searching for gold inside a mountain of data.
+University example:
+A university may discover that students who miss more than four classes usually get lower grades.
+Another example:
+Students who submit Assignment 1 late may also perform badly in the final exam.
+Quick summary:
+Data mining finds hidden patterns in data.
+23. Association Rules
+Association rules find relationships between items.
+Business example from the slide:
+If someone buys eggs, how likely are they to buy cheese?
+University example:
+If a student fails Quiz 1, how likely are they to need extra support before the midterm?
+Quick summary:
+Association rules help discover which things happen together.
+24. Uses of Data Mining in Marketing
+Data mining helps businesses:
+Keep customers
+Find cross-selling opportunities
+Manage campaigns
+Analyze pricing
+Group customers into segments
+University example:
+Instead of customers, a university can use similar ideas for students.
+It can identify:
+Students who may drop out
+Students who need academic support
+Students interested in certain courses
+Students likely to attend workshops
+Quick summary:
+Data mining helps organizations understand behavior and make better decisions.
+25. Business Intelligence
+Business Intelligence, or BI, means collecting the right information at the right time and using it to improve decisions.
+BI turns data into useful information.
+University example:
+The head of department may use BI dashboards to see:
+Average grades
+Attendance levels
+Pass rates
+Student performance by course
+Which courses need improvement
+Quick summary:
+BI helps managers make smart decisions using data.
+26. Distributed Databases
+A distributed database stores data across several connected databases in different locations.
+University example:
+A university may have one database for the main campus, one for another branch, and one for online learning. They are connected together.
+This gives flexibility.
+Quick summary:
+A distributed database spreads data across different locations but keeps it connected.
+27. Replicated Database
+A replicated database keeps duplicate copies of frequently used data.
+University example:
+Student login information may be copied to different systems so students can log in quickly from different campuses.
+Quick summary:
+A replicated database copies important data to improve access and reliability.
+28. OLAP
+OLAP means Online Analytical Processing.
+It allows users to look at data from different perspectives.
+University example:
+A dean may analyze student performance by:
+Course
+Semester
+Teacher
+Department
+Gender
+Attendance level
+This helps understand performance from many angles.
+Quick summary:
+OLAP helps users analyze data in different ways.
+29. Object-Oriented Database
+An object-oriented database stores data together with the instructions that process the data.
+University example:
+A student object may store:
+Student name
+Student ID
+Courses
+Grades
+Methods like calculate GPA
+So the data and actions are stored together.
+Quick summary:
+Object-oriented databases store both data and behavior.
+Full Chapter Summary
+Chapter 5 explains how organizations organize and store data using databases.
+A database stores data in an organized way. The most common type is a relational database, which uses tables. Tables contain records, and records contain fields. Primary keys make each record unique, while foreign keys connect tables together. Referential integrity keeps relationships correct.
+Database design is the planning stage. It identifies entities, relationships, attributes, and keys. ERDs help show database relationships visually.
+SQL is the language used to work with databases. DDL creates database structures, while DML retrieves and changes data. A data dictionary explains the meaning of database fields.
+A DBMS is software that manages the database. Organizations choose a DBMS based on size, cost, users, speed, integration, and vendor reliability. A DBA manages and protects the database, while a Data Administrator manages data rules and standards.
+Databases also support reports, decision-making, data warehouses, data mining, business intelligence, distributed databases, replicated databases, OLAP, and object-oriented databases.
+The main idea is simple:
+Good data organization helps universities and businesses find information quickly, reduce mistakes, make better decisions, and improve performance.
