@@ -1209,3 +1209,320 @@ A DBMS is software that manages the database. Organizations choose a DBMS based 
 Databases also support reports, decision-making, data warehouses, data mining, business intelligence, distributed databases, replicated databases, OLAP, and object-oriented databases.
 The main idea is simple:
 Good data organization helps universities and businesses find information quickly, reduce mistakes, make better decisions, and improve performance.
+==================================================
+CHAPTER 6 — COMPUTER NETWORKS
+==================================================
+1. Why Communication Matters
+Communication means sending and receiving information.
+In business, communication is very important because people need to share information quickly and clearly.
+University example:
+A professor sends an announcement on Moodle about a quiz. Students receive it instantly. Without communication technology, students may miss important information.
+Quick Summary
+Communication helps people and organizations share information faster, better, and across long distances.
+2. What is Telecommunications?
+Telecommunications means sending signals electronically.
+These signals can be sent using:
+Telephone
+Radio
+Television
+Internet
+Computer networks
+Simple meaning:
+Telecommunications is how devices communicate with each other electronically.
+University example:
+When students join an online class on Microsoft Teams, their voice and video are sent electronically through telecommunications.
+Why is it important?
+It reduces the problem of distance and time.
+University example:
+A student in Kuwait can attend an online lecture from a professor in the UK without traveling.
+Quick Summary
+Telecommunications allows people and devices to communicate electronically, even from far away.
+3. General Model of Telecommunications
+A telecommunications system has these basic parts:
+Sending Unit
+This is the device or person sending the message.
+Example:
+A student sends an email to the professor.
+Telecommunications Device
+This device prepares or converts the signal.
+Example:
+The student’s laptop or router helps send the email.
+Telecommunications Medium
+This is the path that carries the signal.
+Example:
+WiFi, fiber-optic cable, or mobile network.
+Receiving Device
+This receives the signal.
+Example:
+The professor’s laptop receives the email.
+Receiving Computer/User
+The final person or system that gets the message.
+Example:
+The professor opens the email and reads it.
+Speed
+Network speed is measured in bps, meaning bits per second.
+Kbps = thousands of bits per second
+Mbps = millions of bits per second
+Gbps = billions of bits per second
+University example:
+If campus WiFi is slow, students may have problems downloading lecture slides. If it is fast, they download them quickly.
+Quick Summary
+Telecommunication works by sending a message from one device to another through a communication medium.
+4. Synchronous and Asynchronous Communication
+Synchronous Communication
+This means communication happens in real time.
+Example:
+A live Microsoft Teams class. The professor speaks, and students respond immediately.
+Other examples:
+Phone call
+Live chat
+Zoom meeting
+Asynchronous Communication
+This means communication does not happen at the same time. There is a delay.
+Example:
+A student emails the professor at night, and the professor replies the next morning.
+Other examples:
+Email
+Moodle announcement
+Discussion forum
+Quick Summary
+Synchronous communication is live. Asynchronous communication allows delayed replies.
+5. Telecommunication Media Types
+A medium is the way data travels from one place to another.
+There are two main types:
+Guided Media
+This uses physical cables.
+Examples:
+Twisted-pair wire
+Coaxial cable
+Fiber-optic cable
+Broadband over power lines
+University example:
+Computer labs may use Ethernet cables to connect computers to the university network.
+Wireless Media
+This sends signals without cables.
+Examples:
+Microwave
+Satellite
+3G, 4G, 5G
+WiFi
+Bluetooth
+NFC
+Infrared
+University example:
+Students connect their laptops to campus WiFi without using cables.
+Quick Summary
+Data can travel through cables or wirelessly.
+6. Bandwidth
+Bandwidth means how much data can be sent through a network at one time.
+Simple meaning:
+More bandwidth = more data can move faster.
+Broadband
+High-speed communication.
+Example:
+Students can watch lecture videos smoothly.
+Narrowband
+Lower-speed communication.
+Example:
+A student may struggle to open Moodle or download files.
+Quick Summary
+Bandwidth controls how much data can move through a network. Higher bandwidth usually means faster communication.
+7. Telecommunications Hardware
+Telecommunications needs hardware devices.
+Modem
+A modem connects a computer or network to the Internet.
+Example:
+The university’s internet connection uses networking devices to connect the campus to the outside world.
+Multiplexer
+A multiplexer combines many signals into one.
+Example:
+Many students use the same campus network, but the system manages all their data together.
+Front-End Processor
+This helps handle communication tasks for a larger computer system.
+Example:
+A university system may use special processors to manage many student requests.
+PBX
+PBX means Private Branch Exchange. It manages telephone calls inside an organization.
+Example:
+A university has internal phone extensions for departments.
+Switch
+A switch connects devices inside a network.
+Example:
+All computers in a lab connect through switches.
+Bridge
+A bridge connects two network sections.
+Example:
+Connecting two computer labs together.
+Router
+A router sends data between networks.
+Example:
+A router connects the university network to the Internet.
+Gateway
+A gateway connects different types of networks.
+Example:
+It helps different systems communicate even if they use different technologies.
+Quick Summary
+Networking hardware helps devices connect, send data, and communicate properly.
+8. Network Types
+PAN: Personal Area Network
+A small network around one person, usually within about 10 meters.
+Example:
+A student connects AirPods to a laptop using Bluetooth.
+LAN: Local Area Network
+A network in a small area like a room, office, or building.
+Example:
+Computers in one university lab are connected together.
+MAN: Metropolitan Area Network
+A network covering a city or large campus area.
+Example:
+A university with several buildings across a city connects them together.
+WAN: Wide Area Network
+A network covering large geographic areas.
+Example:
+A university system connecting campuses in different countries.
+Quick Summary
+Networks can be small like Bluetooth or very large like international networks.
+9. Centralized, Decentralized, and Distributed Processing
+Centralized Processing
+All processing happens in one main location.
+Example:
+All student grades are stored and processed in one central university server.
+Advantage
+High control.
+Problem
+If the central system fails, everyone may be affected.
+Decentralized Processing
+Processing happens in different independent locations.
+Example:
+Each department manages its own student records separately.
+Advantage
+Departments have independence.
+Problem
+Systems may not communicate well with each other.
+Distributed Processing
+Computers are in different locations but connected together.
+Example:
+The university has different systems for Moodle, email, registration, and finance, but they are connected.
+Advantage
+If one system has a problem, the whole university may still continue working.
+Quick Summary
+Centralized means one main system. Decentralized means separate systems. Distributed means connected systems in different locations.
+10. Client/Server Systems
+A server provides services.
+A client asks for services.
+Example:
+When a student opens Moodle:
+The student’s laptop = client
+Moodle system = server
+Types of Servers
+Application Server
+Stores programs and application data.
+Example:
+Moodle application server.
+Email Server
+Sends and receives emails.
+Example:
+University Outlook email server.
+Web Server
+Delivers web pages.
+Example:
+The university website server.
+Quick Summary
+Clients request information. Servers provide information.
+11. Communications Software
+Network Operating System, NOS
+A network operating system manages network resources and devices.
+It helps devices communicate.
+Example:
+In a university lab, the network system allows students to log in, access files, and use printers.
+Network Management Software
+This helps IT staff monitor and manage the network.
+It can:
+Monitor computer usage
+Monitor printers
+Scan for viruses
+Check software licenses
+Example:
+University IT checks if all lab computers have updated antivirus software.
+Quick Summary
+Communications software helps the network run, stay organized, and stay safe.
+12. Securing Data Transmission
+Data must be protected when it moves across networks.
+Guided Networks
+Cable networks are usually more secure because someone needs physical access.
+Example:
+A computer connected by cable in a lab is harder to attack than open WiFi.
+Wireless Networks
+Wireless networks can be less secure if not protected.
+Example:
+If campus WiFi has no password, anyone nearby may try to connect.
+Encryption
+Encryption changes a message into a secret form.
+Example:
+A student logs into Moodle. The password is protected so others cannot easily read it.
+Encryption Key
+A key is used to lock or unlock encrypted data.
+Example:
+Only the correct system can understand the student’s login information.
+Quick Summary
+Security protects data while it travels. Encryption helps keep information private.
+13. The Internet
+The Internet is the world’s largest computer network.
+It is made of many connected networks that share information.
+University example:
+Students use the Internet to access Moodle, email, research articles, and online lectures.
+Quick Summary
+The Internet is a huge network connecting millions of devices and networks around the world.
+14. How the Internet Works
+Data moves from one computer to another.
+If two computers are directly connected, data goes directly.
+If not, data passes through other computers or networks.
+Example:
+When a student opens a university website, the request may pass through many networks before reaching the university server.
+If one route fails, data can use another route.
+Example:
+If one network path is down, the Internet may still find another path to deliver the message.
+Quick Summary
+The Internet sends data through many connected paths. If one path fails, another path may be used.
+15. Internet Applications
+World Wide Web
+The Web is a system of pages and resources on the Internet.
+Example:
+The university website, Moodle pages, and online library pages are part of the Web.
+Web Browser
+A browser lets users access web pages.
+Examples:
+Chrome
+Safari
+Edge
+Firefox
+University example:
+A student uses Safari to open Moodle.
+HTML
+HTML is the standard language used to create web pages.
+Example:
+A university webpage is built using HTML so the browser knows how to display text, images, and links.
+Email
+Email is used to send messages across networks.
+Example:
+A professor emails students about assignment instructions.
+Intranet
+An intranet is a private internal network inside an organization.
+Example:
+A university staff portal only employees can access.
+Extranet
+An extranet gives selected outside people access to part of the internal network.
+Example:
+A university gives an external training company limited access to student workshop information.
+Quick Summary
+Internet applications include the Web, browsers, HTML, email, intranets, and extranets.
+Full Chapter Summary
+Chapter 6 explains how computer networks help people, businesses, and universities communicate.
+Telecommunications means sending electronic signals between devices. These signals can travel through cables or wireless technologies like WiFi, Bluetooth, 4G, and 5G.
+Networks can be small or large. A PAN connects personal devices, a LAN connects devices in a small area, a MAN covers a city or campus, and a WAN covers large geographic areas.
+The chapter also explains how organizations process data. Centralized processing uses one main system, decentralized processing uses separate systems, and distributed processing connects systems in different locations.
+Client/server systems are very important. A client asks for information, and a server provides it. For example, when students use Moodle, their laptop is the client and Moodle is the server.
+The chapter also explains that networks need software and security. Network operating systems manage communication, while encryption protects data during transmission.
+Finally, the Internet is the largest computer network in the world. It supports the Web, email, browsers, HTML, intranets, and extranets.
+In simple words:
+Chapter 6 teaches how devices connect, communicate, share data, and stay secure through computer networks.
