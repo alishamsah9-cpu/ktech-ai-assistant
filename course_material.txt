@@ -1949,3 +1949,200 @@ The chapter also explains supply chain management, which helps organizations pla
 Finally, the chapter explains CRM systems, which help organizations manage relationships with customers by tracking communication, service, marketing, loyalty, and customer needs.
 In simple words:
 Chapter 7 is about the systems that keep an organization running every day.
+==================================================
+CHAPTER 8 — OPERATIONAL SYSTEMS
+==================================================
+1. What are Operational Systems?
+Operational systems are information systems used for the daily work of an organization.
+They help with normal everyday tasks such as:
+recording sales
+tracking attendance
+managing payments
+checking inventory
+processing orders
+updating student records
+Simple meaning:
+Operational systems help the organization run every day.
+University example:
+When a student pays tuition, registers for a course, checks attendance, or submits an assignment on Moodle, the university is using operational systems.
+Quick Summary
+Operational systems are used for daily routine activities. They make sure normal work is recorded, organized, and completed correctly.
+2. Transaction Processing Systems
+A transaction is a small business activity that happens every day.
+Examples of transactions:
+buying something
+paying fees
+registering for a course
+borrowing a library book
+submitting an assignment
+marking attendance
+A Transaction Processing System, or TPS, records and processes these transactions.
+University example:
+When a student registers for Chapter 8 class, the system records:
+student name
+course code
+section
+time
+professor name
+This is a transaction.
+Why TPS is important
+TPS must be:
+fast because many students may use it at the same time
+accurate because wrong data causes problems
+reliable because the university depends on it
+secure because it stores private data
+University example:
+If the registration system makes a mistake, a student may be placed in the wrong class or lose their seat.
+Quick Summary
+TPS records daily transactions. It must be fast, accurate, reliable, and secure.
+3. Data from Operational Systems
+Operational systems collect a lot of data.
+This data can later help managers make decisions.
+University example:
+A university can look at attendance data and notice that many students miss morning classes. Then the university may decide to offer more afternoon sections.
+Simple idea
+Operational systems do not only “record things.”
+They also create useful data for future decisions.
+Quick Summary
+Operational systems collect daily data. This data can later help the university understand problems and improve decisions.
+4. Enterprise Resource Planning Systems
+An Enterprise Resource Planning system, or ERP, connects different departments into one system.
+Instead of every department using separate systems, ERP brings them together.
+Departments may include:
+finance
+human resources
+registration
+purchasing
+inventory
+student services
+University example:
+Imagine the registration office, finance office, and student affairs office all use one connected system.
+When a student registers:
+registration sees the course
+finance sees the tuition
+student affairs sees the student record
+Everyone works from the same data.
+Why ERP is useful
+ERP helps because:
+data is shared
+work becomes faster
+mistakes are reduced
+departments communicate better
+University example:
+If a student pays tuition, the finance office updates the payment, and the registration office can immediately see that the student is allowed to register.
+Quick Summary
+ERP connects departments together. It helps the whole organization use the same information.
+5. Supply Chain Management Systems
+A supply chain is the movement of goods, services, or materials from suppliers to the organization and then to the final user.
+A Supply Chain Management system, or SCM, helps manage this movement.
+University example:
+A university needs:
+laptops
+projectors
+textbooks
+lab equipment
+stationery
+classroom furniture
+SCM helps track ordering, delivery, storage, and usage.
+Simple meaning
+SCM answers questions like:
+What do we need?
+Who supplies it?
+When will it arrive?
+How much do we have left?
+Do we need to reorder?
+University example:
+If the computer lab has 40 students but only 25 working computers, SCM can help the university know they need to order more devices.
+Quick Summary
+SCM helps organizations manage supplies, products, deliveries, and inventory.
+6. Customer Relationship Management Systems
+A Customer Relationship Management system, or CRM, helps an organization manage relationships with customers.
+In a university, the “customers” can be:
+students
+parents
+applicants
+alumni
+CRM stores information about communication, requests, complaints, and support.
+University example:
+If a student contacts student affairs about a problem, CRM can record:
+the student’s name
+the issue
+who handled it
+whether it was solved
+Why CRM is useful
+CRM helps organizations:
+respond faster
+understand customer needs
+improve service
+keep records of communication
+University example:
+If a student complains three times about the same Moodle issue, the university can see the history and solve it properly.
+Quick Summary
+CRM helps manage relationships and communication with students, customers, or users.
+7. Business Process
+A business process is a set of steps used to complete a task.
+Simple meaning:
+A process is “how work gets done.”
+University example: Student registration process
+Student logs in.
+Student chooses course.
+System checks seat availability.
+System checks payment status.
+Student confirms registration.
+System updates the student record.
+This is a business process.
+Why processes matter
+If the process is clear, work becomes easier and faster.
+If the process is confusing, people make mistakes.
+University example:
+If students do not know how to submit assignments on Moodle, many students may submit late or in the wrong place.
+Quick Summary
+A business process is a step-by-step way to complete work.
+8. Improving Business Processes
+Organizations use operational systems to improve business processes.
+They can:
+remove unnecessary steps
+reduce paperwork
+speed up service
+reduce human error
+make work easier
+University example:
+Before, students may need to fill out a paper form to register.
+Now, they register online in a few minutes.
+This is process improvement.
+Quick Summary
+Operational systems help improve work by making processes faster, clearer, and more accurate.
+9. Automation
+Automation means using technology to do tasks automatically with less human effort.
+University example:
+When Moodle automatically grades multiple-choice quizzes, that is automation.
+The professor does not need to mark each answer manually.
+Benefits of automation
+Automation can:
+save time
+reduce mistakes
+make work faster
+help staff focus on more important tasks
+University example:
+Instead of manually checking attendance, students can scan their ID cards, and the system records attendance automatically.
+Quick Summary
+Automation means technology completes tasks with less manual work.
+10. Operational Systems and Decision Making
+Operational systems mostly support daily work, but the data they collect can support decision making.
+University example:
+The university can use system data to answer:
+Which courses have the highest enrollment?
+Which students are at risk because of low attendance?
+Which labs are used the most?
+Which professors need more classroom support?
+Simple idea
+Operational systems create data.
+Managers use this data to make better decisions.
+Quick Summary
+Operational systems help daily work, but their data can also help managers make decisions.
+Full Chapter Summary
+Chapter 8 explains how organizations use operational systems to manage everyday work. These systems support daily activities such as registration, payments, attendance, ordering supplies, and student services.
+The chapter explains that Transaction Processing Systems record daily transactions. ERP systems connect departments together. SCM systems manage supplies and deliveries. CRM systems manage relationships with students or customers.
+The chapter also explains business processes, which are the step-by-step ways work is completed. Operational systems improve these processes by making them faster, more accurate, and more organized.
+In simple words:
+Operational systems are the systems that keep the university running every day.
