@@ -1526,3 +1526,426 @@ The chapter also explains that networks need software and security. Network oper
 Finally, the Internet is the largest computer network in the world. It supports the Web, email, browsers, HTML, intranets, and extranets.
 In simple words:
 Chapter 6 teaches how devices connect, communicate, share data, and stay secure through computer networks.
+==================================================
+CHAPTER 7 — OPERATIONAL SYSTEMS
+==================================================
+1. What are Operational Systems?
+Operational systems are information systems that help an organization run its daily activities.
+Simple meaning:
+They help the business do normal work every day, such as selling, buying, paying employees, serving customers, and recording money.
+University example:
+At a university, daily operations include registering students, recording attendance, collecting tuition fees, giving grades, and printing transcripts. These activities need systems to manage them.
+Examples of operational systems:
+Transaction Processing Systems (TPS): record daily transactions.
+Supply Chain Management systems: help with purchasing and supplies.
+Customer Relationship Management (CRM): help manage customers or students.
+Accounting systems: record payments, invoices, salaries, and tax records.
+Quick summary:
+Operational systems are the “daily work systems” of an organization.
+2. Transaction Processing Systems (TPS)
+A Transaction Processing System is a system that records and processes detailed business activities.
+A transaction means one business event.
+Simple meaning:
+Every time something happens in the organization, the TPS records it.
+University example:
+When a student pays tuition, registers for a course, borrows a library book, or submits an online assignment, each action is a transaction.
+TPS examples:
+Order entry
+Payroll
+Inventory control
+Accounts receivable
+Accounts payable
+General ledger
+University example:
+Payroll: paying professors and staff.
+Inventory: tracking computers in labs.
+Accounts receivable: tracking student tuition payments.
+General ledger: keeping the university’s main financial records.
+Quick summary:
+TPS records small but important daily activities.
+3. Why TPS is Important
+TPS is important because it updates organizational records.
+Simple meaning:
+The system keeps the organization’s information current.
+University example:
+If a student pays tuition today, the system should immediately update the student’s account so the finance office knows the payment was made.
+TPS supports other systems such as:
+MIS: Management Information Systems
+DSS: Decision Support Systems
+Special-purpose systems
+University example:
+The university management may use reports from TPS to know how many students registered, how much money was collected, and how many classrooms are needed.
+Quick summary:
+TPS is the foundation. Other systems depend on TPS data.
+4. Types of TPS Processing
+A. Batch Processing
+Batch processing means transactions are collected first, then processed later as a group.
+Simple meaning:
+The system waits and processes many transactions at one time.
+University example:
+The university may collect all part-time lecturers’ teaching hours during the week, then process payroll at the end of the week or month.
+Business examples:
+Daily invoicing
+Weekly payroll
+Advantage:
+Good when immediate processing is not required.
+Disadvantage:
+Data is not updated instantly.
+B. Online Transaction Processing (OLTP)
+OLTP means each transaction is processed immediately.
+Simple meaning:
+The system updates data in real time.
+University example:
+When a student registers for a class online, the available seat count changes immediately. If the class has 30 seats and one student registers, it becomes 29 seats instantly.
+Business examples:
+Airline booking
+Stock trading
+Online shopping
+Package tracking
+Advantage:
+Data is always up to date.
+Disadvantage:
+The system must be fast and reliable.
+Quick summary:
+Batch processing happens later. OLTP happens immediately.
+5. Objectives of TPS
+TPS has several objectives.
+1. Process transaction data accurately
+The system must record correct information.
+University example:
+If a student pays 100 KD, the system must not record it as 10 KD.
+2. Avoid fraud
+The system should help prevent cheating or illegal actions.
+University example:
+Only authorized staff should be able to change student grades or payment records.
+3. Produce timely reports
+The system should create reports quickly.
+University example:
+The head of department may need a report showing how many students are registered in each course.
+4. Increase labor efficiency
+The system should reduce manual work.
+University example:
+Instead of manually counting attendance papers, the LMS can calculate attendance automatically.
+5. Improve customer service
+The system should help serve users better.
+University example:
+Students can check their grades, schedules, and payments online instead of visiting many offices.
+6. Build loyalty and competitive advantage
+Good systems make people trust and prefer the organization.
+University example:
+If students can register easily, receive fast support, and access records online, they may feel the university is organized and professional.
+Quick summary:
+TPS improves accuracy, speed, security, service, and efficiency.
+6. Transaction Processing Cycle
+The transaction processing cycle has six steps:
+Data collection
+Data editing
+Data correction
+Data manipulation
+Data storage
+Document production
+Think of it like this:
+A student pays tuition → system collects data → checks it → fixes errors → calculates balance → stores it → prints receipt.
+7. Data Collection
+Data collection means gathering the data needed for a transaction.
+Simple meaning:
+The system collects the first information.
+University example:
+When a student registers for a course, the system collects:
+Student ID
+Course code
+Section number
+Date and time
+Payment status
+Data can be collected manually or automatically.
+Manual example:
+A staff member types the student’s information.
+Automated example:
+A student scans their ID card to record attendance.
+Source data automation means capturing data directly in digital form from the source.
+University example:
+A student taps their ID card at the classroom door, and attendance is recorded automatically.
+Quick summary:
+Data collection is the first step. Good data must be collected accurately and quickly.
+8. Data Editing
+Data editing means checking the data for correctness and completeness.
+Simple meaning:
+The system checks if the entered data makes sense.
+University example:
+If a student ID should contain numbers only, the system should reject letters.
+Examples:
+Quantity and cost must be numbers.
+Names must contain letters.
+Transaction codes must match valid codes in the database.
+University example:
+If course code “IS215” exists, the system accepts it. If someone enters “IS999” and it does not exist, the system gives an error.
+Quick summary:
+Data editing checks whether the data is valid.
+9. Data Correction
+Data correction means fixing incorrect data.
+Simple meaning:
+When the system finds an error, the user must correct it.
+University example:
+If a student types the wrong student ID, the system may show: “Invalid student ID. Please re-enter.”
+Correction can include:
+Re-entering data
+Showing error messages
+Using software tools to detect invalid data
+Quick summary:
+Data correction fixes mistakes before the data is saved.
+10. Data Manipulation
+Data manipulation means processing the data to make it useful.
+Simple meaning:
+The system calculates, sorts, classifies, or summarizes the data.
+University example:
+The LMS calculates a student’s final grade:
+Quiz 1 + Quiz 2 + Midterm + Assignment + Final exam = Final mark.
+Data manipulation can include:
+Classifying data
+Sorting data
+Calculating totals
+Summarizing results
+Preparing data for storage
+Quick summary:
+Data manipulation turns raw data into useful information.
+11. Data Storage
+Data storage means saving the processed data in a database.
+Simple meaning:
+The system keeps the information for future use.
+University example:
+After final grades are calculated, they are stored in the student records system.
+Stored data can be used by other systems.
+University example:
+The finance system may use student registration data to calculate tuition fees.
+Quick summary:
+Data storage keeps the information safe and available.
+12. Document Production and Reports
+Document production means creating outputs from the system.
+Simple meaning:
+The system produces reports, receipts, invoices, checks, or screen displays.
+University example:
+Student transcript
+Tuition receipt
+Attendance report
+Grade report
+Class list
+Output formats can be:
+Paper reports
+On-screen displays
+These outputs support:
+Management information
+Decision making
+Compliance with rules and regulations
+Quick summary:
+Document production is the final output of the TPS cycle.
+13. Enterprise Resource Planning (ERP)
+ERP means Enterprise Resource Planning.
+An ERP system is a set of integrated programs that manage important business operations across the whole organization.
+Simple meaning:
+ERP connects many departments into one system.
+University example:
+Instead of having separate systems for registration, finance, HR, library, and attendance, ERP connects everything together.
+ERP can support:
+Supply chain management
+Customer relationship management
+Accounting
+Human resources
+Sales
+Purchasing
+Why ERP is useful:
+Information is shared across departments.
+Work becomes faster.
+Data duplication is reduced.
+Managers get better reports.
+University example:
+When a student registers for a course, the ERP can automatically update registration, finance, classroom planning, and student records.
+Quick summary:
+ERP connects different systems into one large integrated system.
+14. E-Commerce
+E-commerce means doing business transactions electronically through computer networks, mainly the Internet.
+Simple meaning:
+Buying and selling online.
+University example:
+A university sells online courses, accepts online tuition payments, or allows students to buy textbooks through an online portal.
+Types of e-commerce:
+B2C: Business to Consumer
+A business sells directly to individual customers.
+University-style example:
+An online textbook shop sells books directly to students.
+B2B: Business to Business
+One business sells to another business.
+University example:
+A software company sells an LMS system to a university.
+C2C: Consumer to Consumer
+One consumer sells to another consumer.
+University example:
+A student sells a used textbook to another student through an online platform.
+Quick summary:
+E-commerce is online business. It can happen between businesses, customers, or individuals.
+15. M-Commerce
+M-commerce means mobile commerce.
+Simple meaning:
+Buying and selling using mobile devices.
+Devices include:
+Smartphones
+Mobile phones
+PDAs
+University example:
+A student uses a phone to pay tuition, buy coffee on campus, order books, or register for an event.
+Main benefit:
+Users can do transactions anytime and anywhere.
+Quick summary:
+M-commerce is e-commerce using mobile devices.
+16. Production and Supply Chain Management
+Supply chain management helps organizations manage materials, suppliers, production, and delivery.
+Simple meaning:
+It makes sure the organization has what it needs, when it needs it.
+University example:
+A university must order laptops, projectors, chairs, books, and lab equipment. Supply chain systems help plan and manage these purchases.
+ERP Production Planning Process
+1. Sales Forecasting
+Sales forecasting estimates future demand.
+University example:
+The university predicts how many students will register for Business Information Systems next semester.
+2. Sales and Operations Plan
+This combines expected demand with current resources.
+University example:
+If 200 students are expected, the university checks how many classrooms, lecturers, and computers are available.
+3. ERP Operations Plan
+The ERP system uses stored data to create an overall plan.
+University example:
+The system helps decide how many sections of a course should be opened.
+4. Demand Management
+This decides the weekly or daily production needs.
+University example:
+The university decides how many lab sessions are needed each week.
+5. Master Production Schedule
+The MPS is a detailed plan for finished goods.
+University example:
+In a university, this could be a detailed teaching schedule showing courses, sections, rooms, and times.
+6. Detailed Scheduling
+This decides the exact order and timing of work.
+University example:
+The university schedules which class uses the computer lab first and when the next class enters.
+7. Materials Requirement Planning
+MRP decides what materials are needed and when to order them.
+University example:
+If 200 students need lab access, the university checks whether enough computers, software licenses, and chairs are available.
+8. Purchasing
+Purchasing means buying needed materials.
+University example:
+The purchasing department orders new computers for the lab.
+9. Production
+Production means carrying out the work.
+University example:
+The university runs the classes, labs, lectures, and assessments.
+Quick summary:
+Production and supply chain systems help plan demand, materials, purchasing, and operations.
+17. Customer Relationship Management (CRM)
+CRM means Customer Relationship Management.
+A CRM system helps an organization manage interactions with customers.
+Simple meaning:
+CRM helps the organization understand and serve people better.
+University example:
+For a university, students can be seen as customers. A CRM system can track student inquiries, applications, complaints, support requests, and alumni communication.
+CRM supports:
+Marketing
+Advertising
+Sales
+Customer service
+Loyalty programs
+Goals of CRM:
+Increase satisfaction
+Improve loyalty
+Improve sales processes
+Reduce costs
+Better meet customer needs
+University example:
+If many students ask about scholarship deadlines, CRM can help the university send reminders and improve communication.
+Quick summary:
+CRM helps organizations manage relationships and improve service.
+18. CRM Software Functions
+CRM software can:
+1. Centralize customer interactions
+All communication is stored in one place.
+University example:
+Emails, phone calls, and support tickets from a student are kept in one system.
+2. Build customer profiles
+The system creates a detailed record for each customer.
+University example:
+A student profile may include program, courses, attendance, support requests, and payment status.
+3. Provide accessible information
+Staff can access real-time information.
+University example:
+The admissions office can quickly check if a student submitted missing documents.
+4. Match customer needs to offerings
+The system helps suggest suitable services.
+University example:
+A student interested in AI may receive information about AI-related courses.
+5. Send service reminders
+The system sends automatic reminders.
+University example:
+Students receive reminders about payment deadlines or assignment submissions.
+6. Track purchase history and insights
+The system studies previous actions.
+University example:
+The university can see which courses are most popular and plan future offerings.
+Quick summary:
+CRM software helps collect, organize, and use customer information.
+19. Sales Ordering
+Sales ordering means capturing and processing a customer’s order.
+Simple meaning:
+It records what the customer wants to buy and prepares the order.
+Steps include:
+1. Recording items to be purchased
+University example:
+A student chooses textbooks, lab kits, or online course materials.
+2. Setting the sales price
+University example:
+The system applies the correct price for the textbook or course fee.
+3. Recording order quantity
+University example:
+The student orders one textbook and one calculator.
+4. Calculating total cost
+University example:
+The system adds item price + delivery fee.
+5. Confirming customer credit
+University example:
+Before allowing registration, the university checks if the student has unpaid fees.
+Quick summary:
+Sales ordering records and processes what the customer wants to buy.
+20. International Issues in Operational Systems
+Multinational companies operate in many countries, so their systems face extra challenges.
+1. Different languages and cultures
+University example:
+An international university may need systems in English, Arabic, and French.
+2. Different IS infrastructure
+Some countries may have stronger internet and technology than others.
+University example:
+A university branch in one country may have advanced computer labs, while another branch has limited equipment.
+3. Different laws and customs rules
+Companies must follow local laws.
+University example:
+Student data privacy laws may differ between Kuwait, the UK, and the EU.
+4. Multiple currencies
+Companies must manage different currencies.
+University example:
+An international university may accept tuition in Kuwaiti Dinar, British Pounds, or US Dollars.
+ERP vendors help by providing systems that support:
+Multiple languages
+Multiple currencies
+Standardized processes
+Compliance with local rules
+Quick summary:
+International operations are more complex, and ERP helps manage this complexity.
+Full Chapter Summary
+Chapter 7 explains the systems that organizations use to manage daily operations.
+The main idea is that every organization has daily activities such as selling, buying, paying, serving customers, recording orders, and producing reports. These activities are managed by operational systems.
+The most important operational system is the Transaction Processing System (TPS). TPS records daily transactions such as payments, orders, attendance, payroll, and invoices. TPS can use batch processing, where transactions are processed later as a group, or online transaction processing, where each transaction is processed immediately.
+The transaction processing cycle includes data collection, data editing, data correction, data manipulation, data storage, and document production. This cycle makes sure data is collected, checked, corrected, processed, saved, and turned into useful reports.
+The chapter also explains ERP systems, which connect different departments and business functions into one integrated system. ERP helps organizations share information, reduce duplication, improve efficiency, and support global operations.
+The chapter then discusses e-commerce and m-commerce. E-commerce means doing business online, while m-commerce means doing business using mobile devices.
+The chapter also explains supply chain management, which helps organizations plan demand, purchase materials, schedule production, and manage operations.
+Finally, the chapter explains CRM systems, which help organizations manage relationships with customers by tracking communication, service, marketing, loyalty, and customer needs.
+In simple words:
+Chapter 7 is about the systems that keep an organization running every day.
