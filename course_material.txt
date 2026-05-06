@@ -1,0 +1,812 @@
+1. Principles of Computer Hardware
+Hardware supports information systems and business needs.
+This means organizations should choose hardware carefully.
+They must think about:
+What they need now
+What they may need in the future
+Whether the hardware can be upgraded later
+University example:
+A university computer lab should not buy very weak computers if students will later use AI, databases, or design software. They need computers that can be upgraded.
+Quick Summary
+Hardware must match the organization’s needs today and be flexible enough for future growth.
+2. Hardware for Processing
+Processing means the computer is working on data.
+The main processing part is the CPU.
+CPU: Central Processing Unit
+The CPU is the “brain” of the computer.
+It carries out instructions and controls the work of the computer.
+University example:
+When a student opens Moodle and uploads a file, the CPU helps run the browser, process the file, and complete the upload.
+The CPU has three important parts:
+2.1 Control Unit
+The control unit tells other parts of the computer what to do.
+It does not do calculations itself. It manages the flow of work.
+University example:
+Think of the control unit like a professor during an exam. The professor tells students when to start, when to stop, and what rules to follow.
+2.2 ALU: Arithmetic/Logic Unit
+The ALU performs:
+Mathematical calculations
+Logical comparisons
+Example calculations:
+10 + 5
+80 / 4
+Example logical comparisons:
+Is the student’s grade above 60?
+Is the password correct?
+University example:
+When Moodle calculates a student’s quiz grade, the ALU helps perform the calculations.
+2.3 Registers
+Registers are very small, very fast storage areas inside the CPU.
+They temporarily hold data while the CPU is working.
+University example:
+A register is like a student keeping one important number on a sticky note while solving a math problem.
+Quick Summary
+The CPU processes data. The control unit manages instructions, the ALU calculates and compares, and registers temporarily hold data during processing.
+3. Primary Storage / Main Memory
+Primary storage is also called main memory or RAM.
+It temporarily stores programs and data while the computer is working.
+Important point:
+Primary storage is temporary. When the computer turns off, the data usually disappears.
+University example:
+When a student opens Word to write an assignment, the assignment is temporarily held in memory while they work. If the laptop shuts down before saving, the work may be lost.
+Binary Data
+Computers store data using binary.
+Binary means using only two states:
+0
+1
+These can also mean:
+Off
+On
+Each character is represented by bits.
+University example:
+When a student types the letter “A”, the computer stores it using a pattern of 0s and 1s.
+Quick Summary
+Primary storage is fast temporary memory used while the computer is running.
+4. Secondary Storage
+Secondary storage is permanent storage.
+It saves data even when the computer is turned off.
+Examples:
+Hard drives
+SSDs
+USB drives
+Memory cards
+DVDs
+Magnetic tape
+University example:
+When a professor saves lecture slides on a USB or hard drive, the files remain there even after the computer shuts down.
+Advantages of Secondary Storage
+Secondary storage is useful because it is:
+Non-volatile
+It keeps data after power is off.
+High capacity
+It can store large amounts of data.
+Cost-effective
+It is cheaper for storing lots of files.
+University example:
+A university stores thousands of student records. It cannot keep all of them only in RAM, so it uses secondary storage.
+Types of Secondary Storage
+Magnetic Tape
+Used for backup and archiving.
+University example:
+A university may keep old student records on backup storage.
+Magnetic Disks
+Traditional hard drives use magnetic storage.
+University example:
+Old university office computers may use hard disk drives.
+RAID
+RAID means using multiple disks together to improve performance or protect data.
+University example:
+If the university stores exam results, RAID can help protect the data if one disk fails.
+Optical Discs
+Examples:
+CD
+DVD
+Blu-ray
+University example:
+Older course materials may be stored on DVDs.
+Flash Memory
+Examples:
+USB flash drive
+SD card
+SSD
+University example:
+A student saves a PowerPoint presentation on a USB flash drive.
+Quick Summary
+Secondary storage keeps data permanently and is used for files, backups, records, and large data storage.
+5. Enterprise Storage Solutions
+Enterprise storage means storage used by organizations, not just one person.
+Universities, companies, and hospitals need large storage systems.
+5.1 Attached Storage
+Attached storage is connected directly to one computer.
+University example:
+A professor connects an external hard drive to their laptop.
+5.2 NAS: Network-Attached Storage
+NAS is storage connected to a network.
+Many users can access it.
+University example:
+Students and professors may access shared course files from a university network drive.
+5.3 SAN: Storage Area Network
+SAN is a high-speed network used only for storage.
+It is more advanced and powerful than NAS.
+University example:
+A large university data center may use SAN to store Moodle data, student records, and research databases.
+NAS vs SAN Simple Difference
+NAS is like a shared folder on the network.
+SAN is like a powerful storage system built for large organizations.
+Quick Summary
+Enterprise storage helps organizations store and share large amounts of data safely and efficiently.
+6. Data Input
+Data input means entering data into a computer system.
+There are two types of data:
+6.1 Human-Readable Data
+This is data humans can understand.
+Examples:
+Printed forms
+Handwritten notes
+Student ID cards
+Assignment papers
+University example:
+A paper attendance sheet is human-readable.
+6.2 Machine-Readable Data
+This is data computers can read directly.
+Examples:
+Barcodes
+QR codes
+RFID cards
+Magnetic stripe cards
+University example:
+A student scans their ID card to enter the library. The computer reads the card automatically.
+Data Entry vs Data Input
+Data Entry
+Data entry means converting human-readable data into computer-readable form.
+University example:
+An administrator types student attendance from paper into Excel.
+Data Input
+Data input means transferring machine-readable data into the system.
+University example:
+A student scans a QR code for attendance, and the system records it automatically.
+Quick Summary
+Data input is how information enters the computer. Human-readable data may need typing, while machine-readable data can be read directly.
+7. Input Devices
+Input devices allow users to enter data into the system.
+7.1 Keyboard and Mouse
+These are basic input devices.
+University example:
+A student types an essay using a keyboard and clicks Moodle links using a mouse.
+7.2 Speech Recognition
+Speech recognition allows users to speak, and the computer converts speech into text or commands.
+University example:
+A student uses voice typing to write notes.
+7.3 Digital Cameras
+Digital cameras capture images or videos as input.
+University example:
+A student uploads a photo of a lab experiment.
+7.4 Terminals
+A terminal is a device used to access a computer system.
+University example:
+A library search computer lets students search for books.
+Quick Summary
+Basic input devices help users enter text, commands, images, and other data into computer systems.
+8. Scanning and Optical Input Devices
+These devices read printed or marked information.
+8.1 OMR: Optical Mark Recognition
+OMR reads marks on paper.
+University example:
+Multiple-choice exam answer sheets are read using OMR.
+8.2 OCR: Optical Character Recognition
+OCR reads printed or handwritten text and converts it into digital text.
+University example:
+A professor scans a printed article, and OCR converts it into editable text.
+8.3 MICR: Magnetic Ink Character Recognition
+MICR reads special magnetic ink, usually on bank cheques.
+University example:
+If a university receives cheque payments, the bank may use MICR to process them.
+Quick Summary
+Scanning and optical devices help computers read marks, text, and special printed information.
+9. Card-Based Input Devices
+These devices read information from cards.
+Examples:
+Magnetic stripe cards
+Chip and PIN cards
+Contactless cards
+RFID cards
+ATM cards
+POS devices
+University example:
+A student ID card may be used to enter campus buildings, borrow books, or pay for printing.
+RFID
+RFID means Radio Frequency Identification.
+It allows data to be read without physical contact.
+University example:
+A student taps their ID card at the library gate.
+POS Device
+POS means Point of Sale.
+It is used to process payments.
+University example:
+A cafeteria uses a POS machine when students pay by card.
+Quick Summary
+Card-based input devices are used for identification, payments, access control, and tracking.
+10. Touch and Pen-Based Input
+10.1 Touch Screens
+A touch screen allows users to interact by touching the screen.
+University example:
+A student uses a tablet to open lecture slides.
+10.2 Stylus / Pen Input
+A stylus allows users to write or draw on a screen.
+University example:
+A professor writes notes on an iPad during a lecture.
+10.3 RFID Readers
+RFID readers detect RFID cards or tags.
+University example:
+A university attendance system reads student ID cards.
+Quick Summary
+Touch and pen-based input makes interaction easier, especially on tablets and mobile devices.
+11. Data Output
+Output means the computer shows or produces results after processing.
+University example:
+After a student submits a quiz, Moodle displays the score. That score is output.
+12. Visual Output Devices
+12.1 Display Monitors
+A monitor shows visual output.
+University example:
+A professor uses a projector screen to show lecture slides.
+12.2 LCD and OLED Screens
+These are screen technologies.
+LCD screens are common and affordable.
+OLED screens usually have better contrast and colors.
+University example:
+Students may use laptops with LCD screens, while newer tablets may use OLED screens.
+Quick Summary
+Visual output devices display information so users can see results.
+13. Printed and Audio Output
+13.1 Printers
+Printers produce paper output.
+University example:
+A student prints an assignment before submitting it.
+13.2 Plotters
+Plotters print large technical drawings.
+University example:
+Engineering students may print building plans or design diagrams.
+13.3 Headphones / Audio Devices
+Audio devices produce sound output.
+University example:
+A student listens to an online lecture using headphones.
+13.4 GPS / Navigation Systems
+Navigation systems provide location-based output.
+University example:
+A new student uses GPS to find the campus building.
+13.5 3D Printers
+3D printers create physical objects.
+University example:
+Engineering students print a 3D model for a project.
+13.6 E-Book Readers
+E-book readers display digital books.
+University example:
+A student reads a textbook on a Kindle or tablet.
+Quick Summary
+Output devices can show information on screens, print it on paper, play sound, or even create physical objects.
+14. Types of Computer Systems
+Computers come in different sizes and strengths.
+14.1 Personal Computing Devices
+These are used by individuals.
+Examples:
+Smartphones
+Tablets
+Laptops
+Handheld computers
+University example:
+A student uses a laptop to write assignments and a phone to check Moodle announcements.
+14.2 Thin Clients
+A thin client is a simple computer that depends on a server.
+It has limited power by itself.
+University example:
+A computer lab may use thin clients where most processing happens on the university server.
+Quick Summary
+Personal devices are used by individuals, while thin clients depend on stronger central systems.
+15. Business and Enterprise Systems
+15.1 Desktop PCs
+Desktop PCs are standard computers used in offices.
+University example:
+Administrative staff use desktop PCs to manage student records.
+15.2 Workstations
+Workstations are more powerful computers used for specialized work.
+University example:
+Design students may use workstations for 3D modeling.
+15.3 Servers
+Servers provide services to other computers.
+University example:
+Moodle runs on a server so students can access it from anywhere.
+Types of servers:
+Web Server
+Handles websites and web traffic.
+University example:
+The university website runs on a web server.
+Enterprise Server
+Stores organizational data and programs.
+University example:
+The university student information system may run on an enterprise server.
+File Server
+Stores and manages shared files.
+University example:
+Professors share lecture slides through a file server.
+Email Server
+Handles email communication.
+University example:
+Student and staff emails are managed by an email server.
+Quick Summary
+Business systems include desktops, workstations, and servers that support daily organizational work.
+16. High-Performance Computing
+16.1 Mainframes
+Mainframes are large computers used for huge amounts of data processing.
+They require controlled environments.
+University example:
+A large university system may use mainframe-style computing to process thousands of student records.
+16.2 Supercomputers
+Supercomputers are extremely powerful computers used for complex calculations.
+University example:
+Researchers may use supercomputers for climate research, AI training, or scientific simulations.
+Quick Summary
+Mainframes and supercomputers are powerful systems used for very large and complex tasks.
+Full Chapter Summary
+Chapter 3 explains the hardware used in information systems.
+The chapter starts by showing that hardware must support business and organizational needs. Good hardware decisions should consider both current and future requirements.
+Then, it explains processing hardware, especially the CPU. The CPU is the brain of the computer. It includes the control unit, ALU, and registers.
+Next, the chapter explains storage. Primary storage is fast and temporary, while secondary storage is permanent and used for saving files and large amounts of data. Organizations may also use enterprise storage such as attached storage, NAS, and SAN.
+The chapter then moves to input. Input is how data enters the computer. Input can come from keyboards, mice, speech recognition, cameras, scanners, cards, touch screens, styluses, and RFID readers.
+After input, the chapter explains output. Output is how the computer presents results. Output devices include monitors, printers, headphones, GPS systems, 3D printers, and e-book readers.
+Finally, the chapter explains types of computer systems, from personal devices like smartphones and laptops to business systems like servers and high-performance systems like mainframes and supercomputers.
+The main idea is simple:
+Hardware allows information systems to input data, process it, store it, and output useful information.
+==================================================
+CHAPTER 4 — SOFTWARE: SYSTEMS AND APPLICATION SOFTWARE
+==================================================
+1. What is Software?
+Software means the programs that tell the computer what to do.
+A computer by itself is just hardware: screen, keyboard, CPU, memory, printer, and so on. But hardware cannot work properly without software.
+Example:
+A university computer lab has computers, keyboards, and screens. But students cannot type assignments unless the computer has software like Windows and Microsoft Word.
+Computer program means a set of step-by-step instructions given to the computer.
+Example:
+When a student clicks “Print,” the program sends instructions to the printer: prepare the document, choose pages, and print.
+Quick Summary
+Software is the “brain instructions” that make hardware useful.
+
+2. Two Main Types of Software
+There are two main types:
+
+
+System software
+
+
+Application software
+
+
+System Software
+System software controls the hardware and helps the computer run.
+The most important type of system software is the Operating System, or OS.
+Example:
+Windows, macOS, Linux, and Android are operating systems.
+In university life, the OS is like the campus administration. Students and professors may not deal with it directly all the time, but it controls the basic services that allow everything else to work.
+Quick Summary
+System software runs the computer itself.
+
+3. Application Software
+Application software helps users do specific tasks.
+Example:
+Microsoft Word helps students write assignments.
+PowerPoint helps professors create lecture slides.
+Excel helps calculate grades.
+Moodle helps manage course materials.
+Users usually care more about application software because it is what they use directly.
+Example:
+A student usually says, “I need Word,” not “I need system software.” But Word still needs the operating system to work.
+Quick Summary
+Application software helps people complete specific work.
+
+4. Operating System
+An Operating System is a group of programs that controls the computer hardware and allows applications to run.
+It works as a bridge between:
+
+
+The user
+
+
+The application software
+
+
+The hardware
+
+
+Example:
+When a student opens PowerPoint, the operating system helps PowerPoint use the screen, keyboard, mouse, memory, and storage.
+Computer System Platform
+A computer system platform means the combination of hardware and system software.
+Example:
+A MacBook with macOS is one platform.
+A Dell laptop with Windows is another platform.
+Quick Summary
+The OS manages the computer and allows applications to work properly.
+
+5. Main Tasks of the Operating System
+A. Performing Hardware Functions
+The OS helps the computer perform basic actions like:
+
+
+Reading data
+
+
+Saving files
+
+
+Showing information on the screen
+
+
+Sending work to a printer
+
+
+Example:
+When a student saves an assignment, the OS stores the file on the laptop’s drive.
+
+B. Providing a User Interface
+A user interface is how the user communicates with the computer.
+There are two main types:
+Graphical User Interface — GUI
+A GUI uses icons, windows, menus, and buttons.
+Example:
+Windows desktop, macOS, and phone screens use GUI.
+University example:
+A student clicks the Moodle icon or opens a folder by double-clicking.
+Command-Based Interface
+This requires users to type commands.
+Example:
+Typing commands in Terminal or Command Prompt.
+University example:
+An IT student may type a command to run a Python file instead of clicking an icon.
+Quick Summary
+The OS lets users control the computer through either icons or typed commands.
+
+C. Hardware Independence and API
+The OS provides hardware independence through an API.
+An API is a way for software programs to communicate with the operating system or other software.
+Simple meaning:
+An API is like a messenger that lets one program ask another system to do something.
+Example:
+When Moodle uploads a file, it does not need to know every technical detail about your laptop. The OS and APIs help manage that process.
+University example:
+A professor uploads lecture slides to Moodle. Moodle communicates with the system to store and display the file.
+
+D. Managing Memory
+The OS manages memory so programs can run smoothly.
+Example:
+If a student opens Word, Chrome, Teams, and PowerPoint at the same time, the OS decides how memory is shared.
+Quick Summary
+The OS controls how programs use the computer’s memory.
+
+E. Managing Processing Tasks
+The OS manages the CPU and decides which tasks run.
+Important terms:
+Multitasking
+Multitasking means running more than one task at the same time.
+Example:
+A student is listening to a Teams lecture, taking notes in Word, and checking Moodle.
+Time-Sharing
+Time-sharing means the system gives different users or tasks small turns using the processor.
+Example:
+Many students use a university server at the same time. The server gives each student a small share of processing time.
+Scalability
+Scalability means the system can handle more users or work when needed.
+Example:
+During exam week, many students log into Moodle at the same time. A scalable system can handle this without crashing.
+Quick Summary
+The OS manages many tasks and users so the computer keeps working.
+
+F. Networking Capability
+The OS helps the computer connect to networks and the internet.
+Example:
+A student connects to university Wi-Fi and accesses Moodle.
+
+G. Controlling Access to Resources
+The OS controls who can access files, printers, networks, and programs.
+Example:
+A student cannot access the professor’s private grading files because permissions block them.
+
+H. Managing Files
+The OS helps create, save, organize, move, delete, and search files.
+Example:
+A student saves an assignment in a folder called “BIS Chapter 4.”
+Quick Summary
+The OS manages hardware, memory, processing, networking, security, and files.
+
+6. Common Operating Systems
+Microsoft Windows
+Windows is widely used on personal computers.
+Example:
+Many university computer labs use Windows because students are familiar with it.
+Apple macOS
+macOS is used on Apple computers.
+It is popular in creative fields like media, design, music, and education.
+Example:
+A media student may use a MacBook for video editing or graphic design.
+Linux
+Linux is open-source software.
+Open-source means the code is available and can be viewed or modified.
+Example:
+Computer science students may use Linux for programming and server work.
+Quick Summary
+Different operating systems are used for different needs and environments.
+
+7. Mobile Operating Systems
+Mobile operating systems are built into devices like:
+
+
+Phones
+
+
+Cameras
+
+
+Smart TVs
+
+
+Tablets
+
+
+Examples include:
+
+
+Android
+
+
+Windows Mobile
+
+
+Palm OS
+
+
+Example:
+A student uses Android on their phone to check Teams messages and Moodle announcements.
+Quick Summary
+Mobile operating systems run smaller devices like phones and tablets.
+
+8. Utility Programs
+Utility programs help maintain, protect, and fix computer systems.
+They are like support tools for the computer.
+Hardware Utilities
+Check hardware parts like disk, memory, speakers, printers, and modems.
+Example:
+A lab technician checks why a classroom printer is not working.
+Disk Utilities
+Check storage and organize files better.
+Example:
+A student’s laptop becomes slow, so disk cleanup removes unnecessary files.
+Security Utilities
+Protect the computer from viruses, spam, and harmful files.
+Example:
+Antivirus software protects a professor’s laptop from infected email attachments.
+File Compression
+File compression makes files smaller.
+Example:
+A student compresses a project folder into a ZIP file before uploading it to Moodle.
+Network Utilities
+Monitor network performance.
+Example:
+IT staff check why the campus Wi-Fi is slow during online exams.
+Server and Mainframe Utilities
+Help large systems work better.
+Example:
+The university server needs tools to keep Moodle running smoothly for thousands of students.
+Quick Summary
+Utility programs help maintain, protect, and improve computer systems.
+
+9. Proprietary Software vs Off-the-Shelf Software
+Proprietary Software
+Proprietary software is custom-made for a specific organization.
+It is not something you simply buy from a shop.
+Example:
+A university builds its own special attendance system that matches its exact rules.
+Advantages:
+
+
+Fits the organization’s needs exactly
+
+
+Can give competitive advantage
+
+
+Disadvantages:
+
+
+Expensive
+
+
+Takes time to develop
+
+
+Needs maintenance
+
+
+Off-the-Shelf Software
+Off-the-shelf software is ready-made software that can be purchased and used.
+Example:
+Microsoft Office, Zoom, Moodle, and Google Workspace.
+Advantages:
+
+
+Cheaper
+
+
+Faster to start using
+
+
+Usually tested by many users
+
+
+Disadvantages:
+
+
+May not match every need exactly
+
+
+University example:
+If a college uses Moodle, it is off-the-shelf. But if the college creates its own custom LMS, that is proprietary.
+Quick Summary
+Proprietary software is custom-made. Off-the-shelf software is ready-made.
+
+10. Programming Languages
+A programming language is a language used to write software.
+It gives instructions to the computer.
+Programming languages use:
+
+
+Keywords
+
+
+Symbols
+
+
+Rules
+
+
+Example:
+A developer writes code so students can log into an AI learning assistant and ask questions.
+Programming translates user needs into computer instructions.
+University example:
+A professor says, “I want students to upload assignments.”
+A programmer converts this need into code.
+Quick Summary
+Programming languages allow humans to create software.
+
+11. Common Programming Languages
+Visual Basic
+Useful for quickly creating Windows applications.
+Example:
+A simple desktop system for entering student attendance.
+Java
+Java is portable, meaning it can run on many types of computers.
+Example:
+A university app that works on different systems.
+C and C++
+Powerful languages used to create large commercial software.
+Example:
+Parts of operating systems and professional software may be written in C or C++.
+Assembly Language
+Very close to machine language.
+It is fast but difficult for humans to read and write.
+Example:
+Used when performance is extremely important.
+Prolog
+Used for knowledge-based systems.
+Example:
+A system that helps answer expert questions using rules.
+Quick Summary
+Different programming languages are used for different purposes.
+
+12. Software Bugs
+A software bug is an error in a program that stops it from working correctly.
+Example:
+A Moodle quiz is supposed to close at 5:00 PM, but because of a software issue, it closes early.
+Bugs can cause:
+
+
+Wrong results
+
+
+System crashes
+
+
+Security problems
+
+
+User frustration
+
+
+Quick Summary
+Bugs are mistakes in software that cause problems.
+
+13. Copyrights and Licenses
+Software is usually protected by copyright and licenses.
+A license explains how users are allowed to use the software.
+Example:
+A university buys Microsoft Office licenses so students and staff can legally use Word, Excel, and PowerPoint.
+Using software without permission can be illegal.
+Quick Summary
+Copyright and licenses protect software ownership and usage rights.
+
+14. Open-Source Software
+Open-source software is software that is freely available and can be modified.
+Example:
+Linux is open-source.
+University example:
+Computer science students may study open-source code to understand how software works.
+Advantages:
+
+
+Free or low cost
+
+
+Can be modified
+
+
+Community support
+
+
+Possible disadvantage:
+
+
+May require technical knowledge
+
+
+Quick Summary
+Open-source software can be viewed, changed, and shared.
+
+15. Shareware, Freeware, and Public Domain Software
+Shareware
+Software that users can try before paying.
+Example:
+A student downloads a trial version of a design tool.
+Freeware
+Software that is free to use but still owned by someone.
+Example:
+A free PDF reader.
+Public Domain Software
+Software with no ownership restrictions.
+Example:
+Software that anyone can use, copy, or modify freely.
+Quick Summary
+Not all free software is the same. Freeware, shareware, and public domain software have different rules.
+
+16. Software Upgrades
+A software upgrade means moving to a newer version.
+Example:
+Updating Microsoft Word from an old version to a newer version.
+Sometimes users feel forced to upgrade when older software is no longer supported.
+University example:
+If Moodle stops supporting an old browser, students must update their browser to access quizzes.
+Upgrades can be difficult when an organization has many systems.
+Quick Summary
+Upgrades improve software but can also create cost and compatibility problems.
+
+17. Global Software Support
+Global software support means helping users in different locations.
+Example:
+A university with international students may need support in different languages and time zones.
+Questions organizations must ask:
+
+
+Can users get help when needed?
+
+
+Is support available in different countries?
+
+
+Can the system support different languages?
+
+
+Quick Summary
+Global software support is important when users are spread across different places.
+
+Full Chapter Summary
+Chapter 4 explains that software is what makes computer hardware useful. Software is divided into system software and application software. System software, especially the operating system, controls the hardware, manages memory, files, processing, security, and networking. Application software helps users complete specific tasks, such as writing assignments, making presentations, managing grades, or using Moodle.
+The chapter also explains different operating systems such as Windows, macOS, Linux, and mobile operating systems like Android. It then introduces utility programs that help maintain and protect computers.
+Next, the chapter compares proprietary software, which is custom-built for a specific organization, with off-the-shelf software, which is ready-made and usually cheaper. It also explains programming languages, which developers use to create both system and application software.
+Finally, the chapter discusses important software issues such as bugs, copyrights, licenses, open-source software, upgrades, and global support. The main idea is that software is essential for individuals, universities, and businesses because it helps people solve problems, complete tasks, and manage information effectively.

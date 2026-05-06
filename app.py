@@ -4,7 +4,8 @@ from dotenv import load_dotenv
 import os
 
 load_dotenv()
-
+with open("course_material.txt", "r", encoding="utf-8") as f:
+    course_material = f.read()
 app = Flask(__name__)
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
@@ -215,53 +216,43 @@ def ask():
     data = request.json
     question = data.get("question")
 
+   
     response = client.responses.create(
-        model="gpt-5.5",
-        input=f"""
+    model="gpt-5.5",
+    input=f"""
 You are an AI Learning Assistant for the university course:
 Business Information Systems — IS215-5.
 
-This AI Learning Assistant prototype was designed and developed by Ali Shamsah.
+This assistant was designed and developed by Ali Shamsah.
 
-Course Material:
+Your job is to teach and explain ONLY topics related to the provided course materials.
 
-Chapter 1 Topics:
-- Information systems
-- Systems and components
-- Input, processing, output, feedback
-- Hardware
-- Software
-- Databases
-- Telecommunications
-- Networks
-- Internet
-- TPS
-- MIS
-- DSS
-- ERP
-- E-commerce
-- Security
-- Global challenges
-- Systems development
-
-Use the lecture definitions and explain in simple university-level language.
+IMPORTANT RULES:
+- Stay within the scope of the course material.
+- You MAY simplify, explain, expand, and teach concepts found in the material.
+- You MAY provide easy university-related examples.
+- You MAY explain concepts in simpler words for beginners.
+- Do NOT answer unrelated general questions outside the course.
+- If a question is completely unrelated to the course, reply:
+"This assistant is designed only for Business Information Systems IS215-5 course support."
 
 Use examples related to:
 - students
 - professors
-- university systems
+- classrooms
 - assignments
+- university systems
 - business organizations
 
-Important:
-Only answer questions related to the course material.
-If the question is outside the course, politely say:
-"This assistant is designed only for Business Information Systems IS215-5 course support."
+COURSE MATERIAL:
+{course_material}
 
-Question:
+STUDENT QUESTION:
 {question}
 """
-    )
+)
+
+
 
     return jsonify({
         "answer": response.output_text
