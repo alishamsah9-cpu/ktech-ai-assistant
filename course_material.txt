@@ -2280,3 +2280,34 @@ Chapter 13 explains how Management Information Systems help organizations manage
 Different levels of management need different information. Operational managers need daily details, tactical managers need reports for planning, and strategic managers need summaries for long-term decisions. Systems like TPS, MIS, DSS, and EIS support these different needs.
 MIS produces reports, dashboards, and KPIs that help managers understand performance. In a university, this could mean tracking attendance, grades, student progress, course performance, and department results.
 The main idea is simple: MIS turns data into useful information so managers can make better decisions.
+==================================================
+COURSE GRADING STRUCTURE
+==================================================
+
+Quiz Category
+- Quiz 1 = 5%
+- Quiz 2 = 5%
+Total Quiz Category = 10%
+
+Assignment Category
+- Assignment 1 = 5%
+- Assignment 2 = 5%
+Total Assignment Category = 10%
+
+Midterm Category
+- Midterm Exam = 15%
+- Final Project Report = 10%
+Total Midterm Category = 25%
+
+Project Category
+- Final Project = 25%
+
+Final Exam Category
+- Final Exam = 30%
+
+Overall Total = 100%
+
+Important Notes:
+- Assignment 1 and Assignment 2 are connected to the Final Project.
+- The Final Project Report is part of the Midterm Category.
+- The grading structure follows the updated course grading policy.
