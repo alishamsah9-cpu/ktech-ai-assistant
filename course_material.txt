@@ -2426,3 +2426,681 @@ Quiz 1 Coverage:
 
 Quiz 2 Coverage:
 - Quiz 2 covers Chapters 6, 7, and 8.
+==================================================
+CHAPTER 1 — INTRODUCTION TO INFORMATION SYSTEMS
+==================================================
+1. Why Information Systems Matter
+Information systems are important because they help people and organizations make better decisions.
+Simple meaning:
+Information is valuable only when it helps someone make a good decision.
+University example:
+If a professor knows that most students scored low in the midterm, this information helps the professor decide to give a revision class.
+Computers and information systems help organizations improve how they work.
+University example:
+Instead of students submitting assignments on paper, they submit through Moodle. This saves time, keeps records, and makes grading easier.
+Information systems can help:
+
+
+People build better careers
+
+
+Organizations reach goals
+
+
+Society improve quality of life
+
+
+University example:
+A student who learns how to use Excel, databases, and AI tools becomes more prepared for jobs.
+Quick Summary
+Information systems are useful because they help people make decisions, save time, organize work, and improve performance.
+
+2. What Is a System?
+A system is a group of parts that work together to achieve a goal.
+Simple meaning:
+A system is like a team. Each part has a job, and all parts work together.
+University example:
+A university is a system:
+
+
+Students learn
+
+
+Professors teach
+
+
+Admin staff manage records
+
+
+IT staff support Moodle and email
+
+
+Exams measure learning
+
+
+All these parts work together to achieve the goal: education.
+Main Parts of a System
+A system usually has:
+
+
+Input
+
+
+Processing
+
+
+Output
+
+
+Feedback
+
+
+Input
+Input means what goes into the system.
+University example:
+A student submits an assignment into Moodle. The assignment file is the input.
+Processing
+Processing means the system works on the input.
+University example:
+The professor reads the assignment, checks the answers, and gives marks.
+Output
+Output means the result produced by the system.
+University example:
+The student receives a grade and feedback.
+Feedback
+Feedback means information used to improve the system.
+University example:
+If many students make the same mistake, the professor changes the next lecture to explain that topic again.
+Quick Summary
+A system takes input, processes it, produces output, and uses feedback to improve.
+
+3. System Performance
+System performance means how well the system works.
+There are two important ideas:
+Efficiency
+Efficiency means using resources well.
+Simple meaning:
+Doing the job with less time, money, or effort.
+University example:
+If Moodle marks multiple-choice quizzes automatically, it saves the professor time. That is efficient.
+Effectiveness
+Effectiveness means achieving the correct goal.
+Simple meaning:
+Doing the right job successfully.
+University example:
+If the quiz actually measures whether students understood the chapter, then the quiz is effective.
+Efficiency vs Effectiveness
+Efficiency = doing something quickly or with fewer resources.
+Effectiveness = doing the correct thing and reaching the goal.
+University example:
+A professor may grade assignments very quickly, but if the grading is not accurate, it is efficient but not effective.
+Quick Summary
+Efficiency is about saving resources. Effectiveness is about achieving the right result.
+
+4. What Is Information?
+Information is a collection of facts that has meaning and value.
+Simple meaning:
+Information helps people understand something or make a decision.
+University example:
+“Ali scored 18 out of 20” is information because it tells us how Ali performed.
+Data vs Information
+Data means raw facts.
+Information means data that has been organized and made useful.
+University example:
+Data:
+
+
+12
+
+
+15
+
+
+19
+
+
+8
+
+
+20
+
+
+Information:
+
+
+The class average is 14.8 out of 20.
+
+
+The average is more useful because it helps the professor understand class performance.
+Quick Summary
+Data is raw facts. Information is data that has been organized and made useful.
+
+5. What Is an Information System?
+An information system is a group of connected parts that collect, process, store, and share information to achieve a goal.
+It includes:
+
+
+Input
+
+
+Processing
+
+
+Output
+
+
+Feedback
+
+
+University example:
+Moodle is an information system.
+Input:
+
+
+Students upload assignments
+
+
+Processing:
+
+
+Moodle stores files
+
+
+Professor grades them
+
+
+Output:
+
+
+Students see grades
+
+
+Feedback:
+
+
+Students read comments and improve
+
+
+Quick Summary
+An information system collects data, processes it, produces useful information, and uses feedback to improve.
+
+6. Characteristics of Valuable Information
+For information to be useful, it must have good qualities.
+Accessible
+Information should be easy to get when needed.
+University example:
+Students should be able to access lecture slides on Moodle anytime.
+Accurate
+Information should be correct.
+University example:
+If a student’s grade is entered as 8 instead of 18, the information is not accurate.
+Complete
+Information should include everything needed.
+University example:
+An assignment instruction should include the deadline, format, topic, marks, and submission method.
+Economical
+Information should not cost more than its value.
+University example:
+Buying an expensive software system just to record attendance for 10 students may not be economical.
+Flexible
+Information should be useful for more than one purpose.
+University example:
+Attendance data can help check student participation, warning letters, and final grade decisions.
+Relevant
+Information should relate to the problem.
+University example:
+If a professor wants to know why students failed a quiz, attendance and quiz scores are relevant. Cafeteria sales are not relevant.
+Reliable
+Information should come from a trusted source.
+University example:
+Grades from Moodle are more reliable than a student saying, “I think I got 20.”
+Secure
+Information should be protected.
+University example:
+Only the professor and student should see private grades.
+Simple
+Information should be easy to understand.
+University example:
+A simple grade table is better than a confusing report with too many unnecessary numbers.
+Timely
+Information should arrive at the right time.
+University example:
+Students need exam room information before the exam, not after.
+Verifiable
+Information should be possible to check.
+University example:
+A submitted assignment date can be verified in Moodle.
+Quick Summary
+Good information should be correct, complete, relevant, secure, easy to access, easy to understand, and available at the right time.
+
+7. Manual and Computerized Information Systems
+An information system can be manual or computerized.
+Manual Information System
+A manual system uses paper or human work without computers.
+University example:
+A professor writes attendance on paper.
+Computerized Information System
+A computerized system uses computers and technology.
+University example:
+Students scan their ID cards to record attendance automatically.
+Computer-Based Information System — CBIS
+A CBIS is a system that uses:
+
+
+Hardware
+
+
+Software
+
+
+Databases
+
+
+Telecommunications
+
+
+People
+
+
+Procedures
+
+
+University example:
+Moodle is a CBIS because it uses computers, software, stored data, internet connection, users, and rules.
+Quick Summary
+Manual systems use paper. Computerized systems use technology. A CBIS combines technology, people, and procedures.
+
+8. Components of a CBIS
+Hardware
+Hardware means the physical computer equipment.
+Examples:
+
+
+Keyboard
+
+
+Mouse
+
+
+Printer
+
+
+Monitor
+
+
+CPU
+
+
+Memory
+
+
+University example:
+The computers in the university lab are hardware.
+Software
+Software means programs that tell the computer what to do.
+There are two types:
+System Software
+System software controls basic computer operations.
+Example:
+Microsoft Windows.
+University example:
+The lab computer uses Windows to start and run.
+Application Software
+Application software helps users complete specific tasks.
+Example:
+Microsoft Excel.
+University example:
+Students use Excel to create charts for an assignment.
+Database
+A database is an organized collection of data.
+University example:
+The university student database stores names, IDs, courses, attendance, and grades.
+Telecommunications and Networks
+Telecommunications means sending signals electronically.
+A network connects computers together.
+University example:
+University Wi-Fi connects students’ laptops to Moodle and email.
+Internet
+The Internet is the largest global network.
+University example:
+Students use the Internet to access online journals, Google Scholar, and university email.
+Intranet
+An intranet is a private network used inside an organization.
+University example:
+A university internal staff portal only available to employees.
+Extranet
+An extranet allows selected outside users to access part of an organization’s system.
+University example:
+A university may allow an external accreditation team to access selected reports.
+People
+People are the most important part of an information system.
+University example:
+Moodle needs students, professors, IT staff, and administrators.
+Procedures
+Procedures are rules and steps for using the system.
+University example:
+Students must submit assignments as PDF before the deadline. That is a procedure.
+Quick Summary
+A CBIS needs hardware, software, databases, networks, people, and procedures. Technology alone is not enough.
+
+9. Business Information Systems
+Business information systems help organizations complete tasks and make decisions.
+Common types include:
+
+
+E-commerce systems
+
+
+Transaction processing systems
+
+
+Management information systems
+
+
+Enterprise resource planning systems
+
+
+Decision support systems
+
+
+University example:
+A university uses different systems for registration, payment, attendance, grades, and reports.
+Quick Summary
+Business information systems support daily work, management, planning, and decision-making.
+
+10. Electronic and Mobile Commerce
+E-commerce
+E-commerce means business transactions done electronically.
+University example:
+A student pays tuition fees online.
+B2B — Business to Business
+This means one business sells to another business.
+University example:
+A university buys software licenses from Microsoft.
+B2C — Business to Consumer
+This means a business sells directly to customers.
+University example:
+A student buys a textbook from an online bookstore.
+C2C — Consumer to Consumer
+This means one person sells to another person.
+University example:
+A student sells a used textbook to another student online.
+M-commerce
+M-commerce means mobile commerce.
+Simple meaning:
+Buying or selling using mobile devices.
+University example:
+A student uses a phone to pay for coffee on campus.
+Quick Summary
+E-commerce happens online. M-commerce happens through mobile devices. B2B, B2C, and C2C describe who is selling to whom.
+
+11. Transaction Processing Systems — TPS
+A Transaction Processing System records completed business transactions.
+A transaction is a business exchange.
+University example:
+When a student pays tuition, that payment is a transaction.
+TPS examples in university:
+
+
+Paying tuition
+
+
+Registering for courses
+
+
+Recording book purchases
+
+
+Paying staff salaries
+
+
+Printing invoices
+
+
+Simple meaning:
+TPS records daily activities.
+Quick Summary
+TPS records routine daily transactions, such as payments, registrations, and purchases.
+
+12. Management Information Systems — MIS
+An MIS provides routine information to managers.
+It usually uses data from TPS.
+University example:
+The registration system records student enrollments. Then MIS creates a report showing how many students registered in each course.
+TPS gives raw transaction data.
+MIS turns it into useful reports.
+Example:
+TPS:
+
+
+Ali registered in BIS
+
+
+Sara registered in BIS
+
+
+Ahmed registered in BIS
+
+
+MIS:
+
+
+BIS course has 35 students registered.
+
+
+Quick Summary
+MIS helps managers by creating regular reports from transaction data.
+
+13. Enterprise Resource Planning — ERP
+An ERP system is a large integrated system that manages many parts of an organization.
+Simple meaning:
+ERP connects departments into one system.
+University example:
+A university ERP may connect:
+
+
+Student registration
+
+
+Finance
+
+
+HR
+
+
+Payroll
+
+
+Inventory
+
+
+Course scheduling
+
+
+Instead of each department using separate systems, ERP connects them.
+Quick Summary
+ERP is one big connected system that helps the whole organization work together.
+
+14. Decision Support System — DSS
+A Decision Support System helps people make complex decisions.
+The human still makes the final decision.
+University example:
+A university wants to decide whether to open a new AI program. A DSS can analyze student demand, cost, staff availability, and job market trends.
+The system supports the decision, but the dean or management decides.
+DSS vs MIS
+MIS gives routine reports.
+DSS helps with special, complex decisions.
+University example:
+MIS:
+
+
+“How many students passed this semester?”
+
+
+DSS:
+
+
+“Should we change the course structure next year?”
+
+
+Quick Summary
+DSS supports difficult decisions, but humans still make the final choice.
+
+15. Specialized Business Information Systems
+Knowledge Management System — KMS
+A KMS helps an organization create, store, share, and use knowledge.
+University example:
+A university stores lecture notes, research papers, policies, and past exam examples in one system for staff and students.
+Artificial Intelligence — AI
+AI means computer systems that try to act intelligently like humans.
+University example:
+An AI chatbot answers student questions about course material.
+Robotics
+Robotics uses machines that can perform tasks.
+University example:
+A university engineering lab may use robots for student experiments.
+Natural Language Processing — NLP
+NLP means computers understanding human language.
+University example:
+ChatGPT understands student questions written in English and gives answers.
+Virtual Reality — VR
+VR creates a simulated 3D environment.
+University example:
+Medical students use VR to practice surgery in a safe virtual environment.
+Quick Summary
+Specialized systems include KMS, AI, robotics, NLP, and VR. These systems help organizations use knowledge and advanced technology.
+
+16. Systems Development
+Systems development means creating or improving a business system.
+University example:
+The university decides to build a new online attendance system.
+There are five main stages.
+1. Systems Investigation
+This means understanding the problem.
+University example:
+The university asks: “Why is attendance recording slow and inaccurate?”
+2. Systems Analysis
+This means studying the current system and identifying problems and opportunities.
+University example:
+The university finds that paper attendance sheets are often lost and take too much time.
+3. Systems Design
+This means planning how the new system will work.
+University example:
+The university decides students will scan ID cards at the classroom door.
+4. Systems Implementation
+This means building or buying the system and putting it into use.
+University example:
+The university installs scanners, connects them to the database, and trains professors.
+5. Systems Maintenance and Review
+This means checking and improving the system after it starts working.
+University example:
+If some scanners stop working, IT repairs them. If students forget cards, the university adds a backup method.
+Quick Summary
+Systems development means investigating, analyzing, designing, implementing, and maintaining a system.
+
+17. Security, Privacy, and Ethical Issues
+Information systems can create risks.
+Security
+Security means protecting systems and data.
+University example:
+Student grades must be protected from unauthorized access.
+Privacy
+Privacy means protecting personal information.
+University example:
+A student’s phone number, address, and grades should not be shared with everyone.
+Cyberbullying
+Cyberbullying means using technology to harm or harass someone.
+University example:
+Students posting harmful messages about another student in a class group chat.
+Online Criminal Activity
+Criminals may try to steal financial information.
+University example:
+A fake email asks students to enter their university login details.
+Unethical Behavior
+Unethical behavior means doing something wrong even if technology makes it easy.
+University example:
+A student uses AI to write an assignment and submits it as their own work without permission.
+Quick Summary
+Information systems are useful, but they must be used safely, privately, and ethically.
+
+18. Security and Control Measures
+Organizations use controls to protect systems.
+Firewall
+A firewall blocks dangerous network traffic.
+University example:
+The university firewall blocks harmful websites or attacks.
+Antivirus Software
+Antivirus software detects and removes harmful programs.
+University example:
+Lab computers use antivirus software to stop viruses from USB drives.
+Password Protection
+Passwords stop unauthorized users.
+University example:
+Students need passwords to access Moodle.
+Physical Protection
+Physical protection means protecting equipment physically.
+University example:
+Servers are kept in a locked room.
+Security Procedures
+Security procedures are rules for safe system use.
+University example:
+Staff must change passwords every month.
+Quick Summary
+Security controls include firewalls, antivirus software, passwords, physical protection, and clear rules.
+
+19. Global Challenges in Information Systems
+Globalization means countries and organizations are more connected through trade, culture, and technology.
+This creates challenges for information systems.
+Cultural Challenges
+Different countries have different cultures.
+University example:
+A university with international students must respect different learning styles and communication habits.
+Language Challenges
+People speak different languages.
+University example:
+A university website may need English and Arabic versions.
+Time and Distance Challenges
+People may work in different time zones and locations.
+University example:
+A professor in Kuwait schedules an online meeting with students in the UK. The time difference must be considered.
+Infrastructure Challenges
+Some places may not have strong internet, electricity, or skilled workers.
+University example:
+Online exams may be difficult for students living in areas with weak internet.
+Currency Challenges
+Currency values change.
+University example:
+A university buying software from another country may pay more if the exchange rate changes.
+Product and Service Challenges
+Some products are hard to deliver globally.
+University example:
+A physical textbook may take weeks to arrive from another country, while an e-book is easier to deliver.
+Technology Transfer Issues
+Some technologies cannot be sold or shared freely between countries.
+University example:
+Certain advanced research equipment may need government approval before export.
+National Laws
+Each country has laws that organizations must follow.
+University example:
+A university must follow data protection laws when storing student information.
+Trans-border Data-Flow Laws
+These are laws about moving data between countries.
+University example:
+If student data is stored on servers in another country, the university must check if this is legally allowed.
+Trade Agreements
+Countries make agreements that affect business and technology.
+University example:
+A trade agreement may make it easier or cheaper for a university to buy software from another country.
+Quick Summary
+Global information systems face challenges related to culture, language, time, infrastructure, currency, laws, and international trade.
+
+Full Chapter Summary
+Chapter 1 introduces the basic idea of information systems.
+A system is a group of parts working together to achieve a goal. Every system has input, processing, output, and feedback.
+Information is useful data that helps people make decisions. Good information should be accurate, complete, relevant, timely, secure, and easy to understand.
+An information system collects, processes, stores, and shares information. It can be manual or computerized. A computer-based information system includes hardware, software, databases, telecommunications, people, and procedures.
+Business organizations use different types of information systems. A TPS records daily transactions. An MIS creates routine reports for managers. An ERP connects many departments into one system. A DSS helps people make complex decisions.
+The chapter also explains advanced systems like knowledge management systems, artificial intelligence, and virtual reality.
+Finally, the chapter explains that information systems must be developed carefully and used responsibly. Security, privacy, ethics, and global challenges are important because technology can create risks if it is not managed properly.
+In simple words:
+Chapter 1 teaches that information systems are not just computers. They are combinations of technology, people, data, rules, and processes that help organizations work better and make smarter decisions.
