@@ -2311,3 +2311,101 @@ Important Notes:
 - Assignment 1 and Assignment 2 are connected to the Final Project.
 - The Final Project Report is part of the Midterm Category.
 - The grading structure follows the updated course grading policy.
+==================================================
+COURSE SYLLABUS INFORMATION
+==================================================
+
+Required Textbook:
+- Principles of Business Information Systems, 5th Edition
+- Authors: Ralph Stair, George Reynolds, Thomas Chesney, Marié Hattingh
+- ISBN-13: 978-1-4737-9129-9
+
+Course Tools:
+- Microsoft Teams is used for instructor-based recordings of live sessions.
+- Students must follow their registered schedule.
+- Recordings are available for review and do not replace in-person attendance.
+- Moodle is the main study platform where resources and assessments may be available.
+- Class attendance and final grades are shared through the SIS system.
+- Online testing may be conducted on Moodle or another platform selected by the instructor.
+- Tests may require LockDown Browser and Respondus Monitor.
+
+Course Learning Outcomes:
+CLO-1: Describe the basic concepts, components, and problem-solving approaches used in business information systems.
+CLO-2: Explain the role of IT infrastructure and data communications in supporting modern business operations.
+CLO-3: Explain how information systems support and influence business processes within organizations.
+CLO-4: Identify common productivity and business application tools and their basic uses in organizational contexts.
+CLO-5: Describe key security and privacy considerations related to business information systems.
+CLO-6: Identify the basic uses of data communications, networking, data management, and electronic business systems.
+CLO-7: Describe the purpose and basic functions of enterprise and strategic information systems used in organizations.
+
+Attendance Rules:
+- Attendance to all lectures and laboratories is necessary.
+- Students with 5 excused absences must submit them within 5 business days by email to Student Advising.
+- Students who are 10 minutes late may attend but will be marked absent.
+- Midterm and final exam approved excuses include death of a first-degree relative or hospital admission.
+- Students with chronic illness requiring frequent appointments must submit a medical report to Student Advising.
+- Students who miss 2 consecutive weeks of classes from registration may be considered “No Show” and receive an “FA” grade.
+- Part-time working students must notify Student Advising during the first week of class.
+- Students must always have their KTech ID with them.
+
+Course Outline:
+- Week 4: Chapter 4 — Software Systems and Applications
+  Topics: system software, operating systems, application software and programming languages, software issues and trends.
+  Revision for Quiz 1: Chapters 1, 3, and 4.
+  Assignment 1 due date.
+
+- Week 5: Chapter 5 — Organizing and Storing Data
+  Topics: database terms, database management systems, database applications.
+  Quiz 1 covers Chapters 1, 3, and 4.
+
+- Week 6: Chapter 5 Continued
+  Topic: data mining.
+  Introduction to Assignment 2.
+
+- Week 7: Chapter 6 — Computer Networks
+  Topic: introduction to computer networks.
+  Assignment 2 due date.
+
+- Week 8: Revision for Midterm Exam.
+
+- Week 9: Midterm Theory Week
+  Midterm covers Chapters 1, 3, 4, and 5.
+
+- Week 10: Chapter 6 — Computer Networks
+  Topics: telecommunications, network types, the Internet, Internet applications, and the Web.
+  Project instructions.
+
+- Week 11: Chapter 7 — Operational System
+  Topics: ERP, TPS, electronic and mobile commerce, production and supply chain management systems, CRM, and sales management systems.
+
+- Week 12: Chapter 8 — Management Information and Decision Support Systems
+  Topics: MIS, input/output/processing of MIS, characteristics of MIS, types of MIS.
+
+- Week 13: Chapter 8 Continued
+  Topics: decision making, problem solving, overview of MIS, financial MIS, DSS, executive support systems.
+  Revision for Quiz 2 on Chapters 6, 7, and 8.
+  Quiz 2 covers Chapters 6, 7, and 8.
+
+- Week 14: Chapter 13 — Security, Privacy and Ethical Issues in Information
+  Topics: computer waste and mistakes, information security and privacy, computer crimes and preventing computer-related crimes.
+  Project report due.
+
+- Week 15: Revision for Final Exam.
+  Project presentation.
+
+- Week 16: Final Theory Week and Project Presentation.
+  Final Exam covers Chapters 6, 7, 8, and 13.
+
+Assessment Notes:
+- Quizzes are assigned throughout the semester from the required material.
+- Usually there is a quiz every two weeks.
+- Labs must be conducted in person and verified by the instructor.
+- Lab reports must usually be submitted within one week of the lab session.
+- Midterm and final exams are online exams testing course learning.
+- Examination dates and times are determined later.
+
+Academic Integrity:
+- Plagiarism means taking or copying another person’s work and submitting it as your own.
+- Plagiarism and cheating are treated very seriously.
+- Penalties may include dismissal from the college.
+- Plagiarism includes claiming another person’s work as your own, using material without citation, paying or arranging for another person to complete your work, downloading and submitting online material as your own, or allowing another person to use your KTech credentials.
