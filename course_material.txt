@@ -1950,7 +1950,7 @@ Finally, the chapter explains CRM systems, which help organizations manage relat
 In simple words:
 Chapter 7 is about the systems that keep an organization running every day.
 ==================================================
-CHAPTER 8 — OPERATIONAL SYSTEMS
+CHAPTER 8 — MANAGEMENT INFORMATION AND DECISION SUPPORT SYSTEMS
 ==================================================
 1. What are Operational Systems?
 Operational systems are information systems used for the daily work of an organization.
