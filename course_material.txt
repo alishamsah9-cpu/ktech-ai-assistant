@@ -1950,7 +1950,7 @@ Finally, the chapter explains CRM systems, which help organizations manage relat
 In simple words:
 Chapter 7 is about the systems that keep an organization running every day.
 ==================================================
-CHAPTER 8 — MANAGEMENT INFORMATION AND DECISION SUPPORT SYSTEMS
+OPERATIONAL SYSTEMS — ENTERPRISE APPLICATIONS (ERP, SCM, CRM)
 ==================================================
 1. What are Operational Systems?
 Operational systems are information systems used for the daily work of an organization.
@@ -1978,7 +1978,7 @@ submitting an assignment
 marking attendance
 A Transaction Processing System, or TPS, records and processes these transactions.
 University example:
-When a student registers for Chapter 8 class, the system records:
+When a student registers for a class, the system records:
 student name
 course code
 section
@@ -2141,15 +2141,15 @@ Managers use this data to make better decisions.
 Quick Summary
 Operational systems help daily work, but their data can also help managers make decisions.
 Full Chapter Summary
-Chapter 8 explains how organizations use operational systems to manage everyday work. These systems support daily activities such as registration, payments, attendance, ordering supplies, and student services.
+This section explains how organizations use operational systems to manage everyday work. These systems support daily activities such as registration, payments, attendance, ordering supplies, and student services.
 The chapter explains that Transaction Processing Systems record daily transactions. ERP systems connect departments together. SCM systems manage supplies and deliveries. CRM systems manage relationships with students or customers.
 The chapter also explains business processes, which are the step-by-step ways work is completed. Operational systems improve these processes by making them faster, more accurate, and more organized.
 In simple words:
 Operational systems are the systems that keep the university running every day.
 ==================================================
-CHAPTER 13 — MANAGEMENT INFORMATION SYSTEMS
+CHAPTER 8 — MANAGEMENT INFORMATION AND DECISION SUPPORT SYSTEMS
 ==================================================
-Chapter 13: Management Information Systems
+Chapter 8: Management Information and Decision Support Systems
 1. What is a Management Information System?
 A Management Information System, or MIS, is a system that helps managers make decisions by giving them useful information.
 It collects data, processes it, and turns it into reports.
@@ -2275,11 +2275,251 @@ If attendance is entered incorrectly, the report may wrongly show that a student
 MIS can also be expensive, difficult to use, or ignored by staff.
 Quick summary
 MIS is useful, but only if the data is correct and people use it properly.
+12. Effective MIS Principle
+A Management Information System is considered effective when it delivers:
+- The right information
+- To the right person
+- In the right format
+- At the right time
+Simple meaning:
+If any of these four parts is wrong, the system fails to support the manager properly.
+University example:
+A dean needs the failing-students report (right information), sent to her email (right person), as a clear chart (right format), every Monday morning (right time). If the report arrives a week late, the decision becomes useless.
+Quick summary
+An effective MIS is judged by four things: right information, right person, right format, right time.
+13. Decision-Making Process Stages
+Decisions are not made instantly. They follow stages.
+Intelligence Stage
+The manager identifies and defines the problem or opportunity.
+University example:
+The course coordinator notices many students are failing Chapter 6 quizzes. The problem is identified.
+Design Stage
+The manager develops different solutions to choose from.
+University example:
+The coordinator considers options: adding a revision class, recording extra videos, or pairing weak students with strong students.
+Choice Stage
+The manager picks the best alternative.
+University example:
+The coordinator decides to record extra videos because it costs nothing and reaches everyone.
+Problem-solving goes one step further than decision-making:
+Implementation Stage
+The chosen solution is put into action.
+University example:
+The coordinator records the videos and uploads them to Moodle.
+Monitoring Stage
+The results are checked using feedback, and adjustments are made if needed.
+University example:
+After the next quiz, the coordinator checks if the failing rate dropped. If not, a different approach is tried.
+Quick summary
+Decision-making has three stages: Intelligence, Design, Choice. Problem-solving adds two more: Implementation and Monitoring.
+14. Programmed Versus Non-Programmed Decisions
+Decisions can be programmed or non-programmed.
+Programmed Decision
+Made using a clear rule, procedure, or formula.
+The situation is well-structured: rules and relationships are known.
+These decisions are easy to computerize using traditional information systems.
+University example:
+If a student's attendance falls below 25%, the system automatically marks them as "FA" (Failed for Attendance). No human judgment is needed.
+Business example:
+Reorder inventory when stock drops below 100 units.
+Non-Programmed Decision
+Deals with unusual or new situations.
+Rules and relationships are not well defined.
+Cannot be easily quantified or automated.
+University example:
+Deciding whether to open a new College of Artificial Intelligence. This needs research, market study, cost analysis, and judgment.
+Business example:
+Launching a brand-new product line.
+Quick summary
+Programmed decisions are routine and rule-based. Non-programmed decisions are unusual and need human judgment.
+15. Inputs to a Management Information System
+An MIS collects data from two main types of sources.
+Internal Data Sources (from inside the organization)
+- Transaction Processing Systems (TPS)
+- Enterprise Resource Planning (ERP) systems and related databases
+- Data warehouses and data marts
+- Functional departments such as finance, HR, registration
+University example:
+The student registration system, attendance system, and grade book all feed data into the MIS.
+External Data Sources (from outside the organization)
+- Customers, suppliers, competitors, and stockholders (data not already in the TPS)
+- The internet
+- Extranets (private external networks)
+University example:
+A university may pull job-market data from outside sources to decide which new majors to offer.
+Quick summary
+MIS pulls data from inside the organization (TPS, ERP, departments) and outside (customers, suppliers, internet).
+16. Marketing MIS
+A Marketing MIS is a specialized MIS that supports marketing activities.
+It helps managers with:
+- Product development
+- Distribution decisions
+- Pricing decisions
+- Promotional effectiveness
+University example:
+The university uses a Marketing MIS to decide which scholarship promotions attract the most new students, and which advertising channel (Instagram, YouTube, school visits) is most effective.
+Quick summary
+Marketing MIS helps decide what to sell, where to sell it, how to price it, and how to promote it.
+17. Geographic Information Systems (GIS)
+A Geographic Information System manipulates and displays data based on location.
+It connects information to maps.
+University example:
+A university with multiple campuses uses a GIS to see where most students come from, which buses are most full, and where new branches could be opened.
+Business example:
+A delivery company uses GIS to plan the fastest routes and to see which areas have the most customers.
+Quick summary
+GIS shows information on a map. It helps managers make decisions that depend on location.
+18. Executive Support System (ESS) Capabilities
+An Executive Support System, also known as an Executive Information System (EIS), is a specialized type of DSS designed for senior-level executives.
+It is made up of: Hardware, Software, Data, Procedures, and People.
+ESS supports top managers with big-picture, long-term decisions.
+Main capabilities of an ESS:
+Support for Defining Overall Vision
+The system helps top managers see the big picture and set the direction of the organization.
+University example:
+The university president sees a dashboard of student trends over 10 years to decide where the university is headed.
+Support for Strategic Planning
+Helps set long-term objectives by analyzing current performance and predicting future trends.
+University example:
+The president looks at enrollment forecasts to decide whether to build a new college building.
+Support for Strategic Organizing and Staffing
+Helps decide how the organization should be structured and what kind of people are needed.
+University example:
+Deciding whether the College of Business should add a new department for AI in Management.
+Support for Strategic Control
+Helps top managers check that the organization is achieving its goals.
+University example:
+Tracking whether KPIs like graduation rate and student satisfaction are improving each year.
+Support for Crisis Management
+Helps senior leaders respond to emergencies and unexpected events.
+University example:
+During a campus emergency such as a fire or a pandemic, the ESS gives leaders quick, summarized data to act fast.
+Quick summary
+An ESS supports top managers with five capabilities: defining vision, strategic planning, organizing and staffing, strategic control, and crisis management.
 Full Chapter Summary
-Chapter 13 explains how Management Information Systems help organizations manage information and make decisions. Data by itself is just raw facts, but when it is organized, it becomes useful information. Managers need this information to plan, control, and solve problems.
+Chapter 8 explains how Management Information and Decision Support Systems help organizations manage information and make decisions. Data by itself is just raw facts, but when it is organized, it becomes useful information. Managers need this information to plan, control, and solve problems.
 Different levels of management need different information. Operational managers need daily details, tactical managers need reports for planning, and strategic managers need summaries for long-term decisions. Systems like TPS, MIS, DSS, and EIS support these different needs.
 MIS produces reports, dashboards, and KPIs that help managers understand performance. In a university, this could mean tracking attendance, grades, student progress, course performance, and department results.
 The main idea is simple: MIS turns data into useful information so managers can make better decisions.
+==================================================
+CHAPTER 13 — SECURITY, PRIVACY AND ETHICAL ISSUES IN INFORMATION SYSTEMS
+==================================================
+Chapter 13: Security, Privacy and Ethical Issues in Information Systems
+1. Computer Waste
+Computer waste means using or treating technology in a way that does not give value back to the organization.
+Common causes of computer waste:
+- Discarding old software and computer systems when they still have value
+- Improper management of information systems and resources
+- Building and maintaining complex systems that are never used to their fullest extent
+- Using corporate time and technology for personal use
+- Spam (unwanted emails and messages)
+University example:
+A university buys an expensive learning platform but never trains professors how to use it. The system is unused, and the university wasted money.
+Another example:
+A staff member uses university computers and working hours for personal shopping, social media, or streaming videos. This is also computer waste.
+Quick summary
+Computer waste happens when technology, money, time, and people are not used wisely.
+2. Identity Theft
+Identity theft is when an imposter obtains someone else's personal information and pretends to be them.
+What it is
+Someone steals personal information such as:
+- Credit card number
+- Civil ID or Social Security number
+- Driver's license number
+- Bank account details
+- Username and password
+Purpose
+The thief wants to impersonate someone else.
+Why people do it
+- To obtain credit, products, or services in another person's name
+- To create or use false credentials
+- To commit fraud or other crimes while hiding their identity
+University example:
+A student loses their KTech ID. Another person uses it to enter the campus, log in to Moodle, or take an exam pretending to be that student. This is identity theft.
+Real-life example:
+A scammer pretends to be a student's bank and asks for their card number. The student gives it. The scammer then uses the card to make purchases.
+Quick summary
+Identity theft means stealing someone's personal information and using it to pretend to be them.
+3. Illegal Access and Use
+Illegal access means getting into a computer system without permission.
+Types of criminal hackers
+Criminal Hacker (Cracker)
+A person who gains unauthorized or illegal access to computer systems on purpose.
+University example:
+Someone breaking into the university grade system to change marks.
+Script Kiddie
+A "hacker" who does not actually have programming knowledge. They use ready-made tools written by others.
+Simple meaning:
+A beginner who copies other people's attack tools to cause damage.
+Insider
+An employee who damages or misuses the company's systems from inside.
+University example:
+A staff member who has access to student records and steals or changes them for personal gain.
+Malicious Software (Malware)
+Malware is any software designed to destroy or damage processing.
+Virus
+A program file (software) that can attach itself to disks or files and copy itself again and again.
+University example:
+A student plugs an infected USB drive into a lab computer. The virus spreads to other lab computers.
+Quick summary
+Illegal access can come from outsiders (crackers, script kiddies) or insiders (employees). Malware and viruses are tools used to cause harm.
+4. Using Antivirus Programs
+An antivirus program is software that prevents viruses and helps the computer recover if it gets infected.
+Tips for effective virus prevention:
+- Run and update antivirus programs regularly (new viruses appear every day)
+- Scan all USB drives, diskettes, CDs, and external storage before opening them
+- Install software only from sealed, original packages or from trusted, well-known websites
+- Follow careful downloading practices: do not download from suspicious links or pop-ups
+- Take immediate action if a virus is detected — do not ignore the warning
+University example:
+Before opening a USB drive from a friend, scan it first. If the antivirus shows a warning, do not open the files.
+Another example:
+If a fake "Free Antivirus" pop-up appears, do not click it. It is often the virus itself trying to trick the user.
+Quick summary
+Antivirus programs protect computers. They must be updated, used carefully, and downloaded only from reliable sources.
+5. Privacy Issues
+Privacy in information systems is about how personal data is collected, used, and protected.
+Overview
+With information systems, privacy deals mainly with:
+- The collection of personal data
+- How that data is used
+- How that data might be misused
+Current trends
+Increasing amounts of personal information are being:
+- Collected by companies and websites
+- Stored in databases
+- Used to predict customer behavior
+- Shared among different organizations
+University example:
+When students sign up for Moodle, they share their name, ID, email, photo, attendance, grades, and even login times. All of this is personal information that the university must protect.
+Real-life example:
+Social media apps collect location, contacts, browsing history, and shopping habits. This data is often shared with advertisers.
+Quick summary
+Privacy means controlling who collects, uses, and shares your personal information.
+6. Individual Efforts to Protect Privacy
+Each person is responsible for protecting their own privacy.
+Personal privacy tips:
+- Be careful when sharing personal information about yourself online
+- Find out what information about you is already stored in existing databases
+- Be proactive: change passwords often, check privacy settings, and review which apps can access your data
+- When making online purchases, safeguard your:
+  - Credit card numbers
+  - Passwords
+  - Personal information (address, phone number, ID number)
+University example:
+A student should never share their KTech password with anyone, even friends. They should also avoid logging in to Moodle on public computers without signing out.
+Real-life example:
+Before posting a photo with a boarding pass or ID, check that no personal details are visible.
+Quick summary
+Protecting privacy is a personal responsibility. Be careful, stay informed, and stay proactive.
+Full Chapter Summary
+Chapter 13 explains the dangers and responsibilities that come with using information systems.
+Computer waste happens when technology, time, and money are not used properly. Identity theft means stealing someone's personal information to pretend to be them.
+Illegal access can come from outside the organization (criminal hackers and script kiddies) or from inside (employees who misuse their access). Malicious software, especially viruses, can damage systems and spread quickly.
+Antivirus programs help prevent and recover from virus attacks, but only if they are updated and used carefully.
+Privacy is about controlling how personal data is collected, used, and shared. With more data being collected every day, each person must take responsibility for protecting their own information online.
+In simple words:
+Chapter 13 teaches us how to use information systems safely, ethically, and responsibly.
 ==================================================
 COURSE GRADING STRUCTURE
 ==================================================
